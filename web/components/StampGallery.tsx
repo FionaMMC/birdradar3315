@@ -145,7 +145,7 @@ const StampGallery = () => {
               <div
                 className={`aspect-[3/4] rounded overflow-hidden mb-3 transition-transform duration-300 ${
                   stamp.unlocked ? "hover:scale-105" : ""
-                } ${isHighlighted ? "animate-pulse" : ""} relative`}
+                } ${isPremium ? "spotlight" : ""} ${isHighlighted ? "animate-pulse" : ""} relative`}
               >
                 {stamp.unlocked ? (
                   <div className="relative w-full h-full">
@@ -266,6 +266,21 @@ const StampGallery = () => {
           transform: translateX(-150%) translateY(-150%) rotate(45deg);
           animation: sweep-light 3s ease-in-out infinite;
           animation-delay: 0.5s;
+        }
+        /* Soft spotlight shine effect */
+        @keyframes spotlight-glow {
+          0%, 100% {
+            box-shadow: 0 0 15px 5px rgba(255, 240, 150, 0.4);
+            filter: brightness(1);
+          }
+          50% {
+            box-shadow: 0 0 35px 15px rgba(255, 250, 200, 0.7);
+            filter: brightness(1.15);
+          }
+        }
+        .spotlight {
+          animation: spotlight-glow 2.5s ease-in-out infinite;
+          transition: all 0.3s ease-in-out;
         }
       `}</style>
     </div>
