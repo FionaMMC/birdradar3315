@@ -1,7 +1,1 @@
-{
-  "/page": "app/page.js",
-  "/no-migration/page": "app/no-migration/page.js",
-  "/track-migration/page": "app/track-migration/page.js",
-  "/lights-out/page": "app/lights-out/page.js",
-  "/species-library/page": "app/species-library/page.js"
-}
+{}

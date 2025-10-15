@@ -36,6 +36,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../app/about-us/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/about-us">> = Specific
+  const handler = {} as typeof import("../../app/about-us/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/lights-out/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/lights-out">> = Specific
@@ -67,6 +76,60 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/species-library">> = Specific
   const handler = {} as typeof import("../../app/species-library/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/species/black-faced-spoonbill/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/species/black-faced-spoonbill">> = Specific
+  const handler = {} as typeof import("../../app/species/black-faced-spoonbill/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/species/lathams-snipe/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/species/lathams-snipe">> = Specific
+  const handler = {} as typeof import("../../app/species/lathams-snipe/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/species/pacific-golden-plover/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/species/pacific-golden-plover">> = Specific
+  const handler = {} as typeof import("../../app/species/pacific-golden-plover/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/species/painted-snipe/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/species/painted-snipe">> = Specific
+  const handler = {} as typeof import("../../app/species/painted-snipe/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/species/rainbow-bee-eater/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/species/rainbow-bee-eater">> = Specific
+  const handler = {} as typeof import("../../app/species/rainbow-bee-eater/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/species/red-necked-stint/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/species/red-necked-stint">> = Specific
+  const handler = {} as typeof import("../../app/species/red-necked-stint/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

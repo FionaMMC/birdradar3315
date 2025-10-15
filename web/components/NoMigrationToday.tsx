@@ -6,6 +6,8 @@ import { useRouter } from 'next/navigation';
 const NoMigrationToday = () => {
   const router = useRouter();
   const [videoSrc, setVideoSrc] = useState('');
+  const [showLocationPermission, setShowLocationPermission] = useState(true);
+  const [postcode, setPostcode] = useState('');
 
   const videos = [
     '/assets/109996_Wildlife Flock Cranes Crane_By_Omri_Ohana_Artlist_4.6K.mp4',
@@ -20,6 +22,20 @@ const NoMigrationToday = () => {
   }, []);
 
   const handleExplore = () => {
+    router.push('/');
+  };
+
+  const handleAllowLocation = () => {
+    setShowLocationPermission(false);
+  };
+
+  const handlePostcodeSubmit = () => {
+    if (postcode.trim()) {
+      setShowLocationPermission(false);
+    }
+  };
+
+  const handleSkipLocation = () => {
     router.push('/');
   };
 
@@ -40,6 +56,94 @@ const NoMigrationToday = () => {
         )}
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/40 to-blue-950/60" />
       </div>
+
+      {/* Location Permission Modal */}
+      {showLocationPermission && (
+        <div className="absolute inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center px-8">
+          <div className="max-w-lg bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl animate-fade-in">
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 mx-auto mb-4 bg-blue-500/20 rounded-full flex items-center justify-center">
+                <svg
+                  className="w-8 h-8 text-blue-300"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+              </div>
+              <h2 className="text-3xl font-light text-white mb-3">
+                Location Access
+              </h2>
+              <p className="text-blue-100 text-lg leading-relaxed mb-6">
+                We need your location to identify which migratory birds are
+                passing through your area tonight.
+              </p>
+              <p className="text-blue-200/80 text-sm leading-relaxed">
+                Your location is only used for this core feature and is never
+                stored or shared.
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-3">
+              <button
+                onClick={handleAllowLocation}
+                className="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105"
+              >
+                Allow Location Access
+              </button>
+
+              <div className="relative">
+                <div className="absolute inset-0 flex items-center">
+                  <div className="w-full border-t border-white/20"></div>
+                </div>
+                <div className="relative flex justify-center text-sm">
+                  <span className="px-2 bg-white/10 text-blue-200">or</span>
+                </div>
+              </div>
+
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={postcode}
+                  onChange={(e) => setPostcode(e.target.value)}
+                  placeholder="Enter postcode"
+                  className="flex-1 bg-white/10 text-white placeholder-blue-200/50 px-4 py-3 rounded-lg border border-white/20 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/20 transition-all"
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter') {
+                      handlePostcodeSubmit();
+                    }
+                  }}
+                />
+                <button
+                  onClick={handlePostcodeSubmit}
+                  className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
+                >
+                  Confirm
+                </button>
+              </div>
+
+              <button
+                onClick={handleSkipLocation}
+                className="w-full bg-white/10 hover:bg-white/20 text-white font-light py-3 px-6 rounded-lg transition-all duration-300 border border-white/20"
+              >
+                Skip and Return Home
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-8">
