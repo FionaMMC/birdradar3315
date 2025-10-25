@@ -2,6 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { useBirdInteraction } from "@/contexts/BirdInteractionContext";
+import {
+  isValidSydneyPostcode,
+  getLocationOrDefault,
+  getPostcodeErrorMessage,
+  DEFAULT_LOCATION
+} from "@/utils/postcodeUtils";
 
 const LightsOutChallenge = () => {
   const [showLocationPermission, setShowLocationPermission] = useState(true);
@@ -9,10 +16,20 @@ const LightsOutChallenge = () => {
   const [stampAnimating, setStampAnimating] = useState(false);
   const [showShareCard, setShowShareCard] = useState(false);
   const [postcode, setPostcode] = useState("");
+  const [postcodeError, setPostcodeError] = useState("");
+  const [checkboxChecked, setCheckboxChecked] = useState(false);
+  const [showCheckAnimation, setShowCheckAnimation] = useState(false);
   const router = useRouter();
+  const { setMapCenter, setMapZoom } = useBirdInteraction();
 
   const handleCheckboxChange = () => {
-    setLightsOut(true);
+    setCheckboxChecked(true);
+    setShowCheckAnimation(true);
+
+    // Trigger lights out after check animation
+    setTimeout(() => {
+      setLightsOut(true);
+    }, 800);
   };
 
   const handleStampClick = () => {
@@ -24,18 +41,44 @@ const LightsOutChallenge = () => {
   };
 
   const handleAllowLocation = () => {
-    // Close the location permission modal to show lights-out experience
+    // Use University of Sydney as default location
+    const location = DEFAULT_LOCATION;
+    setMapCenter([location.lat, location.lng]);
+    setMapZoom(13);
     setShowLocationPermission(false);
   };
 
   const handlePostcodeSubmit = () => {
-    if (postcode.trim()) {
-      // Close the location permission modal to show lights-out experience
-      setShowLocationPermission(false);
+    const trimmedPostcode = postcode.trim();
+
+    // Clear previous errors
+    setPostcodeError("");
+
+    if (!trimmedPostcode) {
+      setPostcodeError("Please enter a postcode");
+      return;
     }
+
+    // Validate Sydney postcode
+    if (!isValidSydneyPostcode(trimmedPostcode)) {
+      setPostcodeError(getPostcodeErrorMessage(trimmedPostcode));
+      return;
+    }
+
+    // Get location (will fallback to default if postcode not in mapping)
+    const location = getLocationOrDefault(trimmedPostcode);
+    setMapCenter([location.lat, location.lng]);
+    setMapZoom(14);
+
+    // Close modal
+    setShowLocationPermission(false);
   };
 
   const handleSkipLocation = () => {
+    // Use University of Sydney as default location
+    const location = DEFAULT_LOCATION;
+    setMapCenter([location.lat, location.lng]);
+    setMapZoom(11);
     router.push("/");
   };
 
@@ -119,25 +162,39 @@ const LightsOutChallenge = () => {
                 </div>
               </div>
 
-              <div className="flex gap-2">
-                <input
-                  type="text"
-                  value={postcode}
-                  onChange={(e) => setPostcode(e.target.value)}
-                  placeholder="Enter postcode"
-                  className="flex-1 bg-white/10 text-white placeholder-blue-200/50 px-4 py-3 rounded-lg border border-white/20 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/20 transition-all"
-                  onKeyPress={(e) => {
-                    if (e.key === 'Enter') {
-                      handlePostcodeSubmit();
-                    }
-                  }}
-                />
-                <button
-                  onClick={handlePostcodeSubmit}
-                  className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-                >
-                  Confirm
-                </button>
+              <div>
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    value={postcode}
+                    onChange={(e) => {
+                      setPostcode(e.target.value);
+                      setPostcodeError(""); // Clear error on input
+                    }}
+                    placeholder="Enter postcode (e.g., 2050)"
+                    className={`flex-1 bg-white/10 text-white placeholder-blue-200/50 px-4 py-3 rounded-lg border ${
+                      postcodeError
+                        ? "border-red-400 focus:border-red-400 focus:ring-red-400/20"
+                        : "border-white/20 focus:border-blue-400 focus:ring-blue-400/20"
+                    } focus:outline-none focus:ring-2 transition-all`}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        handlePostcodeSubmit();
+                      }
+                    }}
+                  />
+                  <button
+                    onClick={handlePostcodeSubmit}
+                    className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
+                  >
+                    Confirm
+                  </button>
+                </div>
+                {postcodeError && (
+                  <p className="text-red-300 text-sm mt-2 px-1 animate-fade-in">
+                    ⚠️ {postcodeError}
+                  </p>
+                )}
               </div>
 
               <button
@@ -169,24 +226,34 @@ const LightsOutChallenge = () => {
               <div className="relative">
                 <input
                   type="checkbox"
+                  checked={checkboxChecked}
                   onChange={handleCheckboxChange}
-                  className="peer w-8 h-8 rounded border-2 border-white/50 bg-white/10 cursor-pointer checked:bg-blue-500 checked:border-blue-500 transition-all duration-300 appearance-none hover:border-white hover:bg-white/20"
+                  disabled={checkboxChecked}
+                  className="peer w-10 h-10 rounded-lg border-2 border-white/50 bg-white/10 cursor-pointer checked:bg-gradient-to-br checked:from-blue-500 checked:to-blue-600 checked:border-blue-400 transition-all duration-300 appearance-none hover:border-white hover:bg-white/20 hover:scale-110 disabled:cursor-default"
                 />
-                <svg
-                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5 h-5 text-white pointer-events-none opacity-0 peer-checked:opacity-100 transition-opacity"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="3"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                {/* Checkmark with ticket animation */}
+                {showCheckAnimation && (
+                  <svg
+                    className="absolute top-1/2 left-1/2 w-8 h-8 text-white pointer-events-none animate-check-ticket"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="3.5"
+                      d="M5 13l4 4L19 7"
+                      className="drop-shadow-lg"
+                    />
+                  </svg>
+                )}
               </div>
-              <span className="text-xl text-white font-light group-hover:text-blue-200 transition-colors">
+              <span className={`text-xl font-light transition-all duration-500 ${
+                checkboxChecked
+                  ? "text-blue-300 scale-105"
+                  : "text-white group-hover:text-blue-200"
+              }`}>
                 I've turned off my lights
               </span>
             </label>
@@ -388,6 +455,33 @@ const LightsOutChallenge = () => {
           }
         }
 
+        /* Ticket/Checkmark animation - bouncy entrance */
+        @keyframes check-ticket {
+          0% {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(0) rotate(-45deg);
+            transform-origin: center center;
+          }
+          50% {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1.5) rotate(10deg);
+            transform-origin: center center;
+          }
+          65% {
+            transform: translate(-50%, -50%) scale(0.85) rotate(-5deg);
+            transform-origin: center center;
+          }
+          80% {
+            transform: translate(-50%, -50%) scale(1.15) rotate(3deg);
+            transform-origin: center center;
+          }
+          100% {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1) rotate(0deg);
+            transform-origin: center center;
+          }
+        }
+
         .animate-stamp-fly-away {
           animation: stamp-fly-away 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
         }
@@ -398,6 +492,10 @@ const LightsOutChallenge = () => {
 
         .animate-fade-in {
           animation: fade-in 0.3s ease-out forwards;
+        }
+
+        .animate-check-ticket {
+          animation: check-ticket 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
         }
       `}</style>
     </div>
