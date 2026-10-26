@@ -1,5 +1,6 @@
 "use client";
 
+import { assetUrl } from "@/lib/site-path";
 import { useBirdInteraction } from "@/contexts/BirdInteractionContext";
 import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
@@ -150,7 +151,7 @@ const StampGallery = () => {
                 {stamp.unlocked ? (
                   <div className="relative w-full h-full">
                     <img
-                      src={stamp.image}
+                      src={assetUrl(stamp.image)}
                       alt={stamp.name}
                       className="w-full h-full object-contain"
                     />
@@ -161,7 +162,7 @@ const StampGallery = () => {
                 ) : (
                   <>
                     <img
-                      src={stamp.image}
+                      src={assetUrl(stamp.image)}
                       alt={stamp.name}
                       className="w-full h-full object-contain filter blur-sm grayscale opacity-20"
                     />

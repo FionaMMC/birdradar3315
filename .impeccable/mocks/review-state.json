@@ -1,0 +1,31 @@
+{
+  "status": "approved",
+  "frontendImplementation": "in progress",
+  "currentConcepts": [
+    "revised-home",
+    "revised-atlas",
+    "revised-collection"
+  ],
+  "superseded": [
+    "concept-a",
+    "concept-b",
+    "concept-c",
+    "concept-a-v2",
+    "concept-b-v2"
+  ],
+  "constraints": [
+    "Global real data where available",
+    "Cinematic full-bleed background video and soft masks",
+    "Large sans-serif UI titles",
+    "Minimal hard borders",
+    "Translucent milky multi-colour density material",
+    "Balatro-inspired foil postage collectibles"
+  ],
+  "doNotLiteralize": [
+    "Conceptual heat-field geometry: render actual records, preserve empty regions",
+    "Generated map labels and decorative stamp denomination/country markings",
+    "Generated video poster frame is not video footage",
+    "Historical studies from different periods must not be presented as simultaneous live data"
+  ],
+  "approval": "User: 按新版实现"
+}

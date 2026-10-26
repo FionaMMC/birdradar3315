@@ -1,0 +1,13 @@
+.living-film { position:relative; overflow:hidden; background:#08131c; }
+.living-film__image,.living-film__video { position:absolute; inset:0; height:100%; width:100%; object-fit:cover; }
+.living-film__video { opacity:0; transition:opacity 500ms ease-out; }
+.living-film__video.is-visible { opacity:1; }
+.living-film__controls { position:absolute; right:6%; bottom:34px; left:6%; display:flex; align-items:center; justify-content:space-between; gap:14px 28px; flex-wrap:wrap; color:#f7f6f0; z-index:3; }
+.living-film__caption { max-width:55ch; font-size:13px; line-height:1.6; text-shadow:0 2px 12px #020810; }
+.living-film__caption p { margin:5px 0 0; font-size:11px; color:#d2dde1; line-height:1.6; }
+.living-film__controls button { display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:8px 0; min-height:44px; color:inherit; background:none; border:0; cursor:pointer; font:inherit; font-size:13px; white-space:nowrap; }
+.living-film__controls button:focus-visible { outline:2px solid #c5e5ef; outline-offset:5px; }
+.living-film__controls button:disabled { cursor:default; }
+.living-film__controls button:hover:not(:disabled) { text-decoration:underline; text-underline-offset:5px; }
+.living-film__preference { flex-basis:100%; font-size:12px; line-height:1.5; }
+@media(prefers-reduced-motion:reduce) { .living-film__video { transition-duration:80ms; } }

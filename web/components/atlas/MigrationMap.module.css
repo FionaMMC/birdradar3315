@@ -1,0 +1,31 @@
+.frame { position: absolute; inset: 0; isolation: isolate; background: #07151e; }
+.canvas { position: absolute; inset: 0; background: #07151e; font-family: inherit; }
+.canvas :global(.leaflet-tile-pane) { filter: saturate(.64) brightness(.65) contrast(1.08); }
+.canvas :global(.leaflet-overlay-pane) { mix-blend-mode: normal; }
+.canvas :global(.leaflet-control-attribution) { margin: 0; padding: 5px 10px; background: rgba(4, 13, 21, .76); color: #aebbc3; font-size: 10px; line-height: 1.4; }
+.canvas :global(.leaflet-control-attribution a) { color: #c5d5dc; }
+.canvas :global(.leaflet-bottom) { z-index: 450; }
+.canvas:focus-visible { outline: 2px solid #d6e8ee; outline-offset: -5px; }
+.controls { position: absolute; right: var(--map-controls-right, clamp(20px, 3.4vw, 54px)); bottom: var(--map-controls-bottom, 160px); z-index: 410; display: flex; flex-direction: column; gap: 3px; }
+.controls button { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; color: #f7f5ed; cursor: pointer; background: rgba(5, 17, 27, .3); transition: background 180ms, color 180ms; }
+.controls button:hover { background: rgba(227, 239, 243, .16); }
+.controls button:focus-visible { outline: 2px solid #dae8ed; outline-offset: 3px; }
+.controls button:disabled { opacity: .35; cursor: default; }
+.controls svg { width: 23px; height: 23px; stroke: currentColor; stroke-width: 1.5; fill: none; }
+.controls .fit { margin-top: 14px; }
+.warning { position: absolute; z-index: 430; bottom: 32px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 14px; max-width: min(90%, 580px); padding: 12px 18px; border-radius: 10px; color: #e9e9df; background: rgba(9, 24, 33, .94); font-size: 12px; line-height: 1.5; }
+.warning button { flex-shrink: 0; padding: 6px 0; border: 0; color: #e9e9df; background: transparent; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.popup { color: #e8ece9; }
+.popup :global(.leaflet-popup-content-wrapper), .popup :global(.leaflet-popup-tip) { background: #10242e; color: #e8ece9; box-shadow: 0 12px 40px rgba(0, 0, 0, .28); }
+.popup :global(.leaflet-popup-content) { margin: 18px 22px; font-family: inherit; font-size: 13px; line-height: 1.6; }
+.popup :global(.leaflet-popup-close-button) { color: #ccd8dc; padding: 3px; }
+.popup strong { display: block; font-weight: 550; font-size: 17px; margin-bottom: 7px; }
+.popup p { margin: 4px 0; }
+.popup small { display: block; color: #b6c7cf; line-height: 1.5; margin-top: 8px; }
+.popup a { display: inline-block; color: #a5d4e2; margin-top: 8px; text-underline-offset: 3px; }
+@media (max-width: 760px) {
+  .controls { right: var(--map-controls-right-mobile, 16px); bottom: var(--map-controls-bottom-mobile, 207px); }
+  .warning { bottom: 24px; width: 90%; }
+  .canvas :global(.leaflet-control-attribution) { max-width: 100vw; font-size: 9px; }
+}
+@media (prefers-reduced-motion: reduce) { .controls button { transition: none; } }

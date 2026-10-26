@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T12:54:20.709491+00:00",
+  "title": "Design System: BirdRadar",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "displayName": "Midnight base",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.024 238)",
+          "oklch(26% 0.024 238)",
+          "oklch(38% 0.024 238)",
+          "oklch(49% 0.024 238)",
+          "oklch(61% 0.024 238)",
+          "oklch(72% 0.024 238)",
+          "oklch(84% 0.024 238)",
+          "oklch(95% 0.024 238)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "cinematic-night": {
+        "displayName": "Cinematic midnight",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.035 250)",
+          "oklch(26% 0.035 250)",
+          "oklch(38% 0.035 250)",
+          "oklch(49% 0.035 250)",
+          "oklch(61% 0.035 250)",
+          "oklch(72% 0.035 250)",
+          "oklch(84% 0.035 250)",
+          "oklch(95% 0.035 250)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "atlas-night": {
+        "displayName": "Atlas midnight",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.03 235)",
+          "oklch(26% 0.03 235)",
+          "oklch(38% 0.03 235)",
+          "oklch(49% 0.03 235)",
+          "oklch(61% 0.03 235)",
+          "oklch(72% 0.03 235)",
+          "oklch(84% 0.03 235)",
+          "oklch(95% 0.03 235)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "atlas-ink": {
+        "displayName": "Warm atlas ink",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.009 98)",
+          "oklch(26% 0.009 98)",
+          "oklch(38% 0.009 98)",
+          "oklch(49% 0.009 98)",
+          "oklch(61% 0.009 98)",
+          "oklch(72% 0.009 98)",
+          "oklch(84% 0.009 98)",
+          "oklch(95% 0.009 98)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "atlas-muted": {
+        "displayName": "Blue-grey support",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.018 245)",
+          "oklch(26% 0.018 245)",
+          "oklch(38% 0.018 245)",
+          "oklch(49% 0.018 245)",
+          "oklch(61% 0.018 245)",
+          "oklch(72% 0.018 245)",
+          "oklch(84% 0.018 245)",
+          "oklch(95% 0.018 245)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "focus": {
+        "displayName": "Pale cyan focus",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.04 220)",
+          "oklch(26% 0.04 220)",
+          "oklch(38% 0.04 220)",
+          "oklch(49% 0.04 220)",
+          "oklch(61% 0.04 220)",
+          "oklch(72% 0.04 220)",
+          "oklch(84% 0.04 220)",
+          "oklch(95% 0.04 220)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "saved": {
+        "displayName": "Warm saved bookmark",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.075 90)",
+          "oklch(26% 0.075 90)",
+          "oklch(38% 0.075 90)",
+          "oklch(49% 0.075 90)",
+          "oklch(61% 0.075 90)",
+          "oklch(72% 0.075 90)",
+          "oklch(84% 0.075 90)",
+          "oklch(95% 0.075 90)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "source-surface": {
+        "displayName": "Source drawer",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.035 235)",
+          "oklch(26% 0.035 235)",
+          "oklch(38% 0.035 235)",
+          "oklch(49% 0.035 235)",
+          "oklch(61% 0.035 235)",
+          "oklch(72% 0.035 235)",
+          "oklch(84% 0.035 235)",
+          "oklch(95% 0.035 235)"
+        ],
+        "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      }
+    },
+    "typographyMeta": {
+      "display-home": {
+        "displayName": "Home display",
+        "purpose": "Cinematic opening headline; mobile overrides in cinematic.css."
+      },
+      "display-atlas": {
+        "displayName": "Atlas display",
+        "purpose": "Shared historical/nearby atlas heading; smaller compact mobile heading."
+      },
+      "display-collection": {
+        "displayName": "Collection display",
+        "purpose": "The collection opening headline."
+      },
+      "body": {
+        "displayName": "Story body",
+        "purpose": "Longer story copy, normally at a 65ch maximum."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "Shared desktop route links."
+      },
+      "label": {
+        "displayName": "Supporting label",
+        "purpose": "Legend and compact supporting text."
+      },
+      "display-bird": {
+        "displayName": "Bird profile display",
+        "purpose": "Species name in the shared profile hero."
+      },
+      "display-lights": {
+        "displayName": "Lights Out display",
+        "purpose": "Night-action introduction and recorded-state headline."
+      }
+    },
+    "shadows": [
+      {
+        "name": "stamp-rest",
+        "value": "drop-shadow(0 14px 14px #03080b6b)",
+        "purpose": "Follows the transparent paper silhouette."
+      },
+      {
+        "name": "stamp-hover",
+        "value": "drop-shadow(0 20px 18px #03080b8c)",
+        "purpose": "Pointer interaction lifts the stamp subtly."
+      },
+      {
+        "name": "sources",
+        "value": "0 18px 70px #02080e85",
+        "purpose": "Temporary source panel separation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control",
+        "value": "180ms",
+        "purpose": "Most colour and control-state transitions."
+      },
+      {
+        "name": "material-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Stamp return and cinematic arrow movement."
+      },
+      {
+        "name": "stamp-return",
+        "value": "450ms",
+        "purpose": "Returns stamp pose and shadow; pointer hover uses 90ms."
+      },
+      {
+        "name": "density-month",
+        "value": "320ms, cubic-out",
+        "purpose": "Density and observation-heat updates in an unchanged geographic frame; projection changes and refitting cancel the blend."
+      },
+      {
+        "name": "month-playback",
+        "value": "1800ms",
+        "purpose": "Shared historical and nearby monthly playback interval; hiding the document pauses it."
+      },
+      {
+        "name": "film-reveal",
+        "value": "1.2s ease",
+        "purpose": "Reveal only after the film starts playing."
+      },
+      {
+        "name": "collection-present",
+        "value": "440ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Arriving centre stamp after changing the featured bird; removed with reduced motion."
+      },
+      {
+        "name": "night-dimming",
+        "value": "800ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Fade the warm ambient glow after a self-reported night; recorded state uses a darker city poster. Shortens to 80ms with reduced motion."
+      },
+      {
+        "name": "living-film-reveal",
+        "value": "500ms ease-out",
+        "purpose": "Reveal photographic video only after playback starts; 80ms with reduced motion."
+      },
+      {
+        "name": "night-flight",
+        "value": "8 seconds",
+        "purpose": "Optional, non-looping flight sequence after the night is already recorded; pause, Skip, Escape and replay remain available."
+      },
+      {
+        "name": "atlas-location",
+        "value": "800ms",
+        "purpose": "Move the existing map only when entering or changing a nearby area; reduced motion disables animation. Month/species/opacity do not move it."
+      },
+      {
+        "name": "atlas-panel",
+        "value": "260ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Source and place-search panel arrival; removed with reduced motion."
+      },
+      {
+        "name": "atlas-bird-arrive",
+        "value": "360ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Available stamp arrival in the common bird chooser; removed with reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "atlas-compact",
+        "value": "1250px"
+      },
+      {
+        "name": "collection-intermediate",
+        "value": "1100px"
+      },
+      {
+        "name": "atlas-intermediate",
+        "value": "900px"
+      },
+      {
+        "name": "research-stack",
+        "value": "800px"
+      },
+      {
+        "name": "main-mobile",
+        "value": "760px"
+      },
+      {
+        "name": "stamp-grid-mobile",
+        "value": "650px"
+      },
+      {
+        "name": "research-small",
+        "value": "560px"
+      },
+      {
+        "name": "cinematic-small",
+        "value": "500px"
+      },
+      {
+        "name": "atlas-small",
+        "value": "390px"
+      },
+      {
+        "name": "bird-film-stack",
+        "value": "650px"
+      }
+    ],
+    "dataPalettes": {
+      "source": "web/components/atlas/map-palette.ts",
+      "legend": [
+        "0%",
+        "5%",
+        "10%+"
+      ],
+      "saturation": 0.1,
+      "transfer": "pow(clamp(fraction / 0.1, 0, 1), 0.45)",
+      "osprey": [
+        [
+          22,
+          119,
+          177
+        ],
+        [
+          49,
+          185,
+          242
+        ],
+        [
+          133,
+          121,
+          244
+        ],
+        [
+          209,
+          149,
+          242
+        ],
+        [
+          255,
+          174,
+          132
+        ],
+        [
+          255,
+          236,
+          203
+        ]
+      ],
+      "waved-albatross": [
+        [
+          14,
+          116,
+          141
+        ],
+        [
+          34,
+          178,
+          205
+        ],
+        [
+          72,
+          220,
+          231
+        ],
+        [
+          127,
+          235,
+          216
+        ],
+        [
+          195,
+          244,
+          205
+        ],
+        [
+          239,
+          252,
+          224
+        ]
+      ],
+      "bar-tailed-godwit": [
+        [
+          28,
+          116,
+          180
+        ],
+        [
+          60,
+          185,
+          224
+        ],
+        [
+          152,
+          132,
+          238
+        ],
+        [
+          218,
+          159,
+          230
+        ],
+        [
+          255,
+          192,
+          161
+        ],
+        [
+          255,
+          242,
+          212
+        ]
+      ],
+      "eastern-curlew": [
+        [
+          124,
+          86,
+          156
+        ],
+        [
+          194,
+          113,
+          180
+        ],
+        [
+          237,
+          144,
+          162
+        ],
+        [
+          249,
+          177,
+          155
+        ],
+        [
+          255,
+          211,
+          176
+        ],
+        [
+          255,
+          243,
+          215
+        ]
+      ],
+      "meaning": "Tracked-sample share counts distinct individuals in the selected period. Observation heat counts unique records against the selected species’ full-period sample before filtering months; neither estimates abundance."
+    },
+    "accessibility": {
+      "focus": "2px pale outline with 5–6px offset; native select has focus-within wrapper.",
+      "reducedMotion": "Home starts on a still poster; no stamp tilt, density/observation crossfade or atlas-panel, atlas-bird or collection arrival animation. LivingBirdFilm requires manual Play, including post-action flight, with an 80ms video reveal. Night ambient fade shortens to 80ms.",
+      "touch": "No pointer tilt; touch hint replaces movement hint.",
+      "journey": "Native checkbox actions and separate after-dark confirmation; focus moves to the new Lights Out stage heading. Mobile navigation closes on Escape and returns focus to its trigger.",
+      "film": "Muted inline playback, persistent Play/Pause, still fallback and failure copy. Hidden or offscreen films pause. The post-action native dialog focuses Skip, supports Escape and leaves the already-recorded night intact.",
+      "atlas": "A shared native species select with previous/next buttons and a native 1–12 month range work in both scopes. Place search is non-modal; Escape closes it and restores trigger focus. Geolocation is requested only by activating Near home."
+    },
+    "scope": {
+      "sources": [
+        "web/app/layout.tsx",
+        "web/app/globals.css",
+        "web/components/atlas/",
+        "web/lib/birds.ts",
+        "web/lib/lights-out.ts",
+        "web/lib/nearby-data.ts",
+        "web/lib/bird-video.ts",
+        "web/components/atlas/observation-heat.ts",
+        "web/components/atlas/ObservationHeatLayer.ts",
+        "web/lib/atlas-selection.ts",
+        "web/components/atlas/useAtlasLocation.ts"
+      ],
+      "surfaces": [
+        "Home",
+        "Unified historical/nearby atlas",
+        "Ten bird profiles",
+        "Collection",
+        "Lights Out"
+      ],
+      "legacy": "Six original quiz pages are archived, unrouted, under web/legacy/species/. Previously completed quiz marks remain recognized."
+    },
+    "journeys": {
+      "mapContext": "One month/layer URL model supports both scopes and validated local returnTo links through profiles, gallery and Lights Out. Legacy nearbyMonth/nearbyLayer are normalized. A location-less view=nearby link opens place search without requesting geolocation.",
+      "nearby": "Near home explicitly requests approximate geolocation and moves the existing map. Find a place / Change place opens a non-modal city search panel. The shared bird chooser, month range and opacity filter the loaded 25km sample without refitting or requerying. Back to migration restores the preceding historical bird and retains month.",
+      "collection": "Seven illustrated stamps, four cosmetic finishes, All / Saved filters and device-local bookmarks; ten bird profiles with photographic hero footage and a separate keepsake section.",
+      "lightsOut": "Understand, Take action, Remember. City-bird film accompanies action selection. After confirming an action was completed after dark, record one entry per local date immediately, then offer eight seconds of archival flight. Pause, Skip, Escape and replay are available; reduced motion starts on the poster. Darkened completion and journal support undo/removal."
+    },
+    "observationHeat": {
+      "sources": [
+        "web/components/atlas/observation-heat.ts",
+        "web/components/atlas/ObservationHeatLayer.ts"
+      ],
+      "historical": {
+        "cellDegrees": 1,
+        "supportDegrees": 2.4
+      },
+      "nearby": {
+        "cellDegrees": 0.01,
+        "supportDegrees": 0.054
+      },
+      "denominator": "Selected species’ unique valid records across the full source period, unchanged by month filters.",
+      "rendering": "Finite local kernel with latitude-corrected longitudinal support, screen compositing and pearl isobands. No minimum pixel radius on zoom-out. Switch to original points for record provenance."
+    },
+    "films": {
+      "source": "web/lib/bird-video.ts",
+      "component": "web/components/atlas/LivingBirdFilm.tsx",
+      "identity": "Exact species is not established by original filenames. Shared or unverified archival footage is labelled independently from profile/data identity.",
+      "profileLayout": "Desktop directional reading mask leaves the subject visible; mobile uses a separate 390px film strip after the introduction. Stamps follow below.",
+      "provenance": "web/docs/BIRD_FILMS.md"
+    },
+    "mapControls": {
+      "bird": "One native species selector, previous/next controls, available stamp, save/profile/collection links. Nearby options come from the chosen area’s source records.",
+      "month": "One native January–December range with twelve labels, All months and play/pause, shared on desktop/mobile and between scopes.",
+      "location": "Place selection changes the existing map centre and observation sample. Nearby species, month and opacity retain viewport and loaded sample.",
+      "permission": "Near home calls geolocation only after explicit activation; place search and remembered-area selection do not request it."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary text link",
+      "kind": "button",
+      "refersTo": "primary-link",
+      "description": "Large cinematic action; no filled button container.",
+      "html": "<a class=\"ds-primary-link\" href=\"/track-migration\">Explore migration <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
+      "css": ".ds-primary-link{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);color:#f7f8fb;background:transparent;display:inline-flex;align-items:center;gap:14px;font-size:clamp(24px,2.3vw,36px);line-height:1.4;letter-spacing:-.025em;text-decoration:none}.ds-primary-link svg{width:31px;height:31px;transition:transform 220ms cubic-bezier(.16,1,.3,1)}.ds-primary-link:hover svg{transform:translate(3px,-3px)}.ds-primary-link:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-primary-link svg{transition:none}.ds-primary-link:hover svg{transform:none}}"
+    },
+    {
+      "name": "Secondary text link",
+      "kind": "button",
+      "description": "Subordinate cinematic action in muted blue-grey.",
+      "html": "<a class=\"ds-secondary-link\" href=\"/species-library\">Meet the birds</a>",
+      "css": ".ds-secondary-link{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);display:inline-flex;align-items:center;gap:12px;color:#bccddd;font-size:clamp(18px,1.7vw,24px);line-height:1.5;text-decoration:none}.ds-secondary-link:hover{color:#fff}.ds-secondary-link:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}"
+    },
+    {
+      "name": "Site navigation",
+      "kind": "nav",
+      "description": "Quiet Map, Birds, Collection and Lights Out route links; mobile menu supports Escape and focus return in the application.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-brand\" href=\"/\">BirdRadar</a><div class=\"ds-nav-links\"><a href=\"/track-migration\" aria-current=\"page\">Map</a><a href=\"/species-library\">Birds</a><a href=\"/collection\">Collection</a><a href=\"/lights-out\">Lights Out</a></div></nav>",
+      "css": ".ds-nav{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);display:flex;flex-wrap:wrap;align-items:center;gap:32px;color:#f8f8f3}.ds-nav a{color:#bbc2cb;text-decoration:none;font-size:15px;line-height:1.5;transition:color 180ms}.ds-nav .ds-brand{color:#f8f8f3;font-size:27px;font-weight:600;line-height:1;letter-spacing:-.04em}.ds-nav a:hover,.ds-nav a[aria-current]{color:#fff}.ds-nav a:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}.ds-nav-links{display:flex;align-items:center;flex-wrap:wrap;gap:28px}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+    },
+    {
+      "name": "Finish options",
+      "kind": "chip",
+      "refersTo": "finish-tab-active",
+      "description": "Borderless finish choices; weight and a dot identify selection.",
+      "html": "<div class=\"ds-finishes\" role=\"group\" aria-label=\"Stamp finish\"><button aria-pressed=\"false\">Original</button><button aria-pressed=\"false\">Foil</button><button aria-pressed=\"true\">Holo</button><button aria-pressed=\"false\">Polychrome</button></div>",
+      "css": ".ds-finishes{display:flex;gap:28px;flex-wrap:wrap}.ds-finishes button{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);position:relative;display:inline-flex;align-items:center;min-height:44px;padding:0 0 9px;border:0;background:none;color:#c2cbd5;font-size:15px;line-height:1.3;cursor:pointer;transition:color 180ms}.ds-finishes button:hover,.ds-finishes button[aria-pressed=true]{color:#fff}.ds-finishes button[aria-pressed=true]{font-weight:600}.ds-finishes button[aria-pressed=true]::after{content:\"\";position:absolute;bottom:0;left:calc(50% - 2.5px);width:5px;height:5px;border-radius:50%;background:#f4f4f7}.ds-finishes button:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}"
+    },
+    {
+      "name": "Species selector",
+      "kind": "input",
+      "description": "Shared historical/nearby bird chooser; native select overlays the visible name and sits with previous/next controls and available stamp.",
+      "html": "<label class=\"ds-species\"><span>Osprey</span><select aria-label=\"Choose a bird species\"><option>Osprey</option><option>Waved albatross</option><option>Far Eastern Curlew</option><option>Bar-tailed godwit</option></select><svg width=\"17\" height=\"17\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"m4 7 6 6 6-6\"/></svg></label>",
+      "css": ".ds-species{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);position:relative;display:inline-flex;align-items:center;gap:9px;max-width:100%;min-height:44px;color:#f7f6f0}.ds-species span{font-size:32px;font-weight:450;line-height:1.12;letter-spacing:-.03em}.ds-species select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}.ds-species option{background:#112633;color:#f7f6f0;font-size:18px}.ds-species:focus-within{outline:2px solid #c5e5ef;outline-offset:5px}.ds-species svg{pointer-events:none}"
+    },
+    {
+      "name": "Map control",
+      "kind": "button",
+      "refersTo": "map-control",
+      "description": "Circular transparent control for geographic operations.",
+      "html": "<button class=\"ds-map-control\" aria-label=\"Zoom in\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 4v16M4 12h16\"/></svg></button>",
+      "css": ".ds-map-control{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);display:grid;place-items:center;width:44px;height:44px;padding:0;border:0;border-radius:50%;color:#f7f5ed;background:rgba(5,17,27,.3);cursor:pointer;transition:background 180ms,color 180ms}.ds-map-control:hover{background:rgba(227,239,243,.16)}.ds-map-control:disabled{opacity:.35;cursor:default}.ds-map-control svg{width:23px;height:23px;stroke:currentColor;stroke-width:1.5;fill:none}.ds-map-control:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}"
+    },
+    {
+      "name": "Holographic stamp",
+      "kind": "card",
+      "description": "Actual transparent stamp art and masked optical layers; static light position in this preview, pointer tracking in StampCard.tsx. Asset URLs resolve in the BirdRadar app.",
+      "html": "<article class=\"ds-stamp\"><a class=\"ds-stamp-art\" href=\"/species/osprey\" aria-label=\"Read about Osprey\"><img src=\"/assets/atlas/osprey-stamp.png\" alt=\"Osprey, illustrated postage stamp\"/><span class=\"ds-stamp-foil\" aria-hidden=\"true\"></span><span class=\"ds-stamp-glare\" aria-hidden=\"true\"></span></a><a class=\"ds-stamp-name\" href=\"/species/osprey\">Osprey</a><span class=\"ds-stamp-latin\">Pandion haliaetus</span></article>",
+      "css": ".ds-stamp{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);width:220px;max-width:100%;color:#edf0f4}.ds-stamp-art{display:block;position:relative;isolation:isolate;width:100%;aspect-ratio:2/3;filter:drop-shadow(0 14px 14px #03080b6b);transition:filter 450ms cubic-bezier(.16,1,.3,1)}.ds-stamp-art:hover{filter:drop-shadow(0 20px 18px #03080b8c)}.ds-stamp-art img{display:block;width:100%;height:100%;object-fit:contain}.ds-stamp-foil,.ds-stamp-glare{position:absolute;inset:0;pointer-events:none;mask:url(\"/assets/atlas/osprey-stamp.png\") center/contain no-repeat;-webkit-mask:url(\"/assets/atlas/osprey-stamp.png\") center/contain no-repeat}.ds-stamp-foil{opacity:.85;background:radial-gradient(ellipse at 38% 30%,#d3f9ffc7 0%,#9ba9f989 19%,transparent 56%),linear-gradient(125deg,#7bd6ed 7%,#d3c4ff 23%,#e8b1e8 38%,#92cceb 52%,#b2e0be 68%,#e5d9ad 80%,#b8c4ef 93%);background-size:150% 160%;background-position:38% 30%;mix-blend-mode:soft-light}.ds-stamp-glare{opacity:.18;background:radial-gradient(ellipse at 38% 30%,#fff8e7a8 0%,#d5eef22e 24%,transparent 63%);mix-blend-mode:screen;transition:opacity 250ms}.ds-stamp-art:hover .ds-stamp-glare,.ds-stamp-art:focus-visible .ds-stamp-glare{opacity:.66}.ds-stamp-name{display:block;margin-top:10px;font-size:14px;line-height:1.45;font-weight:500;color:inherit;text-decoration:none}.ds-stamp-name:hover{text-decoration:underline;color:#fff}.ds-stamp-latin{display:block;margin-top:3px;font-size:12px;line-height:1.4;color:#b9c6d2}.ds-stamp a:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-stamp-art,.ds-stamp-glare{transition:none}}"
+    },
+    {
+      "name": "Month scrubber",
+      "kind": "input",
+      "description": "One native twelve-month range for desktop/mobile and both data scopes; dragging pauses playback in the application.",
+      "html": "<div class=\"ds-months\"><input aria-label=\"Month of year\" aria-valuetext=\"September, across source years\" type=\"range\" min=\"1\" max=\"12\" step=\"1\" value=\"9\"/><div class=\"ds-month-labels\" aria-hidden=\"true\"><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span></div><p>Across source years</p></div>",
+      "css": ".ds-months{font-family:var(--font-ui,\"Geom Variable\",\"Helvetica Neue\",sans-serif);color:#bccbd3;min-width:250px}.ds-months input{display:block;width:100%;height:44px;margin:0;appearance:none;background:transparent;cursor:pointer;accent-color:#edf3ef}.ds-months input::-webkit-slider-runnable-track{background:#75889599;height:2px;border-radius:2px}.ds-months input::-webkit-slider-thumb{appearance:none;width:13px;height:13px;border-radius:50%;background:#edf3ef;margin-top:-5.5px}.ds-months input::-moz-range-track{background:#758895;height:2px}.ds-months input::-moz-range-thumb{width:13px;height:13px;border:0;border-radius:50%;background:#edf3ef}.ds-month-labels{display:flex;justify-content:space-between;font-size:11px;font-variant-numeric:tabular-nums}.ds-months p{font-size:11px;margin-top:8px}.ds-months input:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}"
+    },
+    {
+      "name": "Place search",
+      "kind": "input",
+      "description": "Underlined city/suburb search inside the atlas’s temporary non-modal panel; does not request geolocation.",
+      "html": "<form class=\"ds-place\" role=\"search\" aria-label=\"Find an area\"><input type=\"search\" aria-label=\"City or suburb\" placeholder=\"City or suburb\" autocomplete=\"off\"/><button type=\"submit\">Search</button></form>",
+      "css": ".ds-place{display:flex;align-items:center;gap:10px;border-bottom:1px solid #7b929d;font-family:var(--font-ui,\"Geom Variable\",\"Helvetica Neue\",sans-serif)}.ds-place input{background:none;border:0;color:#f1f3ee;width:100%;min-width:0;height:48px;font:inherit;font-size:17px;caret-color:#c1e0e7}.ds-place input::placeholder{color:#b3c6ce}.ds-place button{border:0;background:none;color:#e1eeec;padding:0;min-height:44px;font:inherit;font-size:13px;cursor:pointer}.ds-place button:hover{color:#fff}.ds-place :is(input,button):focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}"
+    },
+    {
+      "name": "Night action",
+      "kind": "button",
+      "refersTo": "lights-primary",
+      "description": "Pale progression action for the night journey; actual recording stays disabled until a physical action and after-dark confirmation are selected.",
+      "html": "<button class=\"ds-night-primary\">Choose tonight’s actions<svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"M4 12h16m-7-7 7 7-7 7\"/></svg></button>",
+      "css": ".ds-night-primary{font-family:var(--font-ui,\"Geom Variable\",\"Helvetica Neue\",sans-serif);display:flex;justify-content:space-between;align-items:center;gap:25px;width:100%;min-height:58px;color:#14232c;background:#e4eae8;border:0;border-radius:8px;padding:14px 21px;font-size:16px;font-weight:500;cursor:pointer;transition:background-color 180ms,box-shadow 180ms}.ds-night-primary:hover:not(:disabled){background:#fffdf5;box-shadow:0 9px 24px #01081035}.ds-night-primary:disabled{color:#bdcbd4;background:#a3b7c22a;cursor:default}.ds-night-primary:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-night-primary{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A world in flight",
+    "overview": "BirdRadar places oversized, closely set sans-serif type and quiet controls directly over wildlife film, dark landscape imagery and satellite geography. Soft directional masks create reading space; open composition and tonal contrast do most of the grouping. Rich colour belongs to measured geographic fields and illustrated postage stamps.\n\nThe stamps provide the tactile counterpart: intact bird artwork, visible paper perforations and separate optical finishes. One continuous map presents historical tracks and nearby observations, deriving each field’s shape and coverage from source records. Bird profiles connect those records to keepsakes; Lights Out turns that interest into a chosen action at home, followed by a quieter, darker landscape.",
+    "keyCharacteristics": [
+      "Full-bleed imagery and geography with dissolving dark masks.",
+      "Large Geom headings; compact, unboxed navigation and controls.",
+      "Milky species density fields and transparent, perforated foil stamps.",
+      "Visible data context and sources, device-local keepsakes and night journals, and reduced-motion alternatives."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Colour Rule",
+        "body": "Both fields use fixed 0%, 5%, 10%+ colour. Tracking counts distinct individuals in the selected period; observation heat uses the selected species’ full-period record count even when months change. Neither estimates abundance, and observations do not establish routes.",
+        "section": "colors"
+      },
+      {
+        "name": "The Material Boundary Rule",
+        "body": "Keep foil and diffraction inside the stamp's alpha mask. Navigation and ordinary controls remain quiet and matte.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the locally bundled Geom face, oversized headings and generous open space.",
+      "Do keep terrain, geographic labels, legends and attribution legible beneath and around the density field.",
+      "Do derive visible coverage, dates and sample counts from the selected real records.",
+      "Do preserve transparent stamp edges and keep bird identity and printed artwork readable through each finish.",
+      "Do retain visible focus, native keyboard controls, pause controls and reduced-motion behavior.",
+      "Do keep map context intact across the bird, collection and night-action journey.",
+      "Do make location requests explicit and separate saved keepsakes from self-reported night actions.",
+      "Do keep living footage visible, its identity limits legible, and flight playback optional after recording.",
+      "Do preserve the same map, bird chooser and month control when moving between historical journeys and nearby observations."
+    ],
+    "donts": [
+      "Don't replace the cinematic world with boxed dashboard panels or pervasive hard dividers.",
+      "Don't turn UI headings into serif type; fine print embedded in stamp artwork is a separate material.",
+      "Don't label historical samples live, join independent observations into routes, or read brightness as abundance.",
+      "Don't invent routes or flowing particles to match a mockup, or crossfade data across a changed geographic frame.",
+      "Don't present a cosmetic finish or saved bookmark as a quiz award, account sync or permanent ownership.",
+      "Don't interpret a Lights Out journal entry as sensor evidence, a bird-presence forecast or a measured conservation outcome."
+    ]
+  }
+}

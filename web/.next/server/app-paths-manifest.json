@@ -1,9 +1,0 @@
-{
-  "/species/black-faced-spoonbill/page": "app/species/black-faced-spoonbill/page.js",
-  "/species/rainbow-bee-eater/page": "app/species/rainbow-bee-eater/page.js",
-  "/about-us/page": "app/about-us/page.js",
-  "/lights-out/page": "app/lights-out/page.js",
-  "/track-migration/page": "app/track-migration/page.js",
-  "/page": "app/page.js",
-  "/species-library/page": "app/species-library/page.js"
-}

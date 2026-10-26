@@ -1,5 +1,5 @@
-import NoMigrationToday from '@/components/NoMigrationToday';
+import { redirect } from "next/navigation";
 
 export default function NoMigrationPage() {
-  return <NoMigrationToday />;
+  redirect("/track-migration");
 }

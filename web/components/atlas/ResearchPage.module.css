@@ -1,0 +1,126 @@
+.page {
+  min-height: 100svh;
+  overflow: clip;
+  color: #f5f6f2;
+  background: #07121d;
+  font-family: var(--font-ui), sans-serif;
+  position: relative;
+  isolation: isolate;
+}
+.page * { box-sizing: border-box; }
+.page a { color: inherit; text-underline-offset: 5px; }
+.page a:hover { color: #c5e8f1; }
+.page :is(a, summary):focus-visible { outline: 2px solid #b3e0ec; outline-offset: 6px; }
+.backdrop {
+  position: absolute;
+  inset: 0 0 auto;
+  width: 100%;
+  height: min(1050px, 110svh);
+  object-fit: cover;
+  object-position: 62% center;
+  opacity: .48;
+  z-index: -2;
+  pointer-events: none;
+  mask-image: linear-gradient(#000 20%, transparent 96%);
+}
+.veil { position: absolute; inset: 0 0 auto; height: 1050px; z-index: -1; pointer-events: none; background: linear-gradient(90deg, #07121dc4, transparent 90%); }
+.hero { max-width: 1440px; margin: auto; padding: 174px 5% 88px; }
+.eyebrow { margin: 0 0 24px; color: #a9c4d3; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+.hero h1 { margin: 0; max-width: 12ch; font-size: clamp(60px, 7.2vw, 112px); line-height: .98; letter-spacing: -.055em; font-weight: 440; }
+.intro { max-width: 52ch; color: #c0cedb; font-size: clamp(18px, 1.65vw, 23px); line-height: 1.6; margin: 32px 0 0; }
+.jumpLinks { display: flex; gap: 14px 34px; flex-wrap: wrap; margin-top: 38px; }
+.jumpLinks a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; font-size: 16px; gap: 10px; }
+.jumpLinks a span { color: #91b6ca; }
+.snapshot { display: flex; flex-wrap: wrap; gap: 12px 32px; margin: 50px 0 0; color: #9baebe; font-size: 12px; line-height: 1.7; }
+.snapshot p { margin: 0; }
+.snapshot strong { color: #c9d8e2; font-weight: 450; }
+.section { max-width: 1440px; margin: auto; padding: 64px 5% 78px; scroll-margin-top: 40px; }
+.sectionHeading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8%; align-items: start; margin-bottom: 56px; }
+.section h2 { font-size: clamp(37px, 4.1vw, 60px); font-weight: 440; letter-spacing: -.045em; line-height: 1.08; margin: 0; }
+.sectionHeading > p, .copy p { color: #b9cad8; font-size: 16px; line-height: 1.85; margin: 0; max-width: 67ch; }
+.copy p + p { margin-top: 22px; }
+.studies { display: grid; grid-template-columns: 1fr 1fr; gap: 9%; }
+.study { scroll-margin-top: 40px; }
+.study h3 { font-size: clamp(27px, 2.7vw, 39px); font-weight: 440; letter-spacing: -.03em; line-height: 1.15; margin: 0 0 8px; }
+.scientificName { color: #91aec2; font-size: 16px; line-height: 1.7; margin: 0 0 25px; font-style: italic; }
+.studySummary { color: #bdcdda; font-size: 16px; line-height: 1.8; margin: 0 0 24px; }
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 20px; margin: 28px 0; }
+.facts dt { font-size: 12px; color: #91a8ba; margin-bottom: 5px; }
+.facts dd { margin: 0; font-size: 17px; color: #e3eaf0; line-height: 1.6; }
+.facts .wideFact { grid-column: 1 / -1; }
+.sourceLinks { display: flex; flex-wrap: wrap; gap: 12px 26px; align-items: center; margin-top: 20px; }
+.sourceLinks a { font-size: 13px; line-height: 1.8; }
+.citation { margin: 24px 0 0; color: #8da6b9; font-size: 12px; line-height: 1.8; overflow-wrap: anywhere; }
+.retrieved { margin-top: 14px; color: #91a8ba; font-size: 11px; line-height: 1.7; }
+.occurrenceIntro { display: grid; grid-template-columns: 1fr 1fr; gap: 9%; align-items: start; }
+.attributionHeading { font-size: 24px; font-weight: 440; letter-spacing: -.02em; margin: 62px 0 12px; }
+.attributionNote { color: #91a8ba; font-size: 13px; line-height: 1.8; margin: 0 0 24px; max-width: 80ch; }
+.attributions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 9%; }
+.attribution { padding: 15px 0; min-width: 0; }
+.attribution summary { display: flex; align-items: start; gap: 14px; cursor: pointer; color: #d0dce5; font-size: 15px; line-height: 1.7; list-style: none; }
+.attribution summary::-webkit-details-marker { display: none; }
+.attribution summary::before { content: "+"; color: #85a5bc; font-size: 21px; line-height: 1.2; flex-shrink: 0; }
+.attribution[open] summary::before { content: "−"; }
+.attribution .citation { margin-top: 14px; }
+.attribution p { padding-left: 28px; }
+.attribution .sourceLinks { margin-top: 10px; padding-left: 28px; }
+.license { margin-top: 10px; font-size: 11px; line-height: 1.8; color: #99b0c1; }
+.methods { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6%; margin-top: 50px; }
+.methods h3 { font-size: 22px; line-height: 1.3; font-weight: 450; letter-spacing: -.02em; margin: 0 0 18px; }
+.methods p { font-size: 14px; line-height: 1.85; color: #a9bfce; margin: 0; }
+.methodNumber { display: block; color: #7b9aac; font-size: 12px; margin-bottom: 20px; }
+.footer { max-width: 1440px; margin: auto; padding: 52px 5% 60px; display: flex; justify-content: space-between; gap: 24px; align-items: end; }
+.footer a { font-size: 18px; text-decoration: none; display: inline-flex; gap: 16px; align-items: center; min-height: 44px; }
+.footer p { color: #809daf; font-size: 12px; line-height: 1.8; max-width: 45ch; text-align: right; margin: 0; }
+.speciesHero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: 8%; min-height: 820px; align-items: center; padding-bottom: 100px; }
+.speciesHero h1 { font-size: clamp(90px, 10vw, 150px); }
+.speciesLatin { color: #b8ccda; font-size: clamp(22px, 2.3vw, 30px); margin: 20px 0 0; font-style: italic; }
+.speciesFigure { width: 100%; max-width: 335px; justify-self: center; margin: 0; transform: rotate(5deg); }
+.speciesFigure img { width: 100%; height: auto; display: block; filter: drop-shadow(0 24px 25px #0009); }
+.speciesFigure figcaption { margin-top: 18px; color: #a6bdcf; text-align: center; font-size: 11px; line-height: 1.5; }
+.speciesHero .snapshot { margin-top: 34px; }
+.speciesStudy { display: grid; grid-template-columns: 1fr 1fr; gap: 9%; }
+.speciesStudy h2 { max-width: 11ch; }
+.speciesStudy .copy p { margin-top: 20px; }
+.speciesStudy .sourceLinks { margin-top: 30px; }
+.studyTitle { color: #e0e9ef; font-size: 21px; line-height: 1.6; margin: 0 0 20px; font-weight: 440; }
+@media (max-width: 800px) {
+  .hero { padding: 140px 6% 50px; }
+  .hero h1 { font-size: clamp(55px, 10vw, 84px); }
+  .intro { font-size: 18px; }
+  .section { padding: 44px 6% 50px; }
+  .sectionHeading, .occurrenceIntro, .speciesStudy { grid-template-columns: 1fr; gap: 28px; }
+  .sectionHeading { margin-bottom: 38px; }
+  .studies { gap: 8%; }
+  .facts { grid-template-columns: 1fr; gap: 17px; }
+  .facts .wideFact { grid-column: auto; }
+  .methods { gap: 5%; }
+  .methods h3 { font-size: 19px; }
+  .speciesHero { min-height: auto; grid-template-columns: 1fr 1fr; gap: 5%; padding-bottom: 70px; }
+  .speciesHero h1 { font-size: clamp(65px, 10vw, 90px); }
+  .speciesHero .intro { font-size: 16px; }
+  .speciesHero .jumpLinks { gap: 8px 22px; }
+  .speciesFigure { max-width: 280px; }
+  .footer { padding-inline: 6%; }
+}
+@media (max-width: 560px) {
+  .hero h1 { font-size: 56px; }
+  .intro { font-size: 17px; margin-top: 26px; }
+  .jumpLinks { gap: 10px 22px; margin-top: 26px; }
+  .snapshot { margin-top: 32px; }
+  .section h2 { font-size: 36px; }
+  .studies, .attributions, .methods { grid-template-columns: 1fr; gap: 44px; }
+  .attributions { gap: 0; }
+  .attributionHeading { margin-top: 40px; }
+  .facts { grid-template-columns: 1fr 1fr; }
+  .facts .wideFact { grid-column: 1 / -1; }
+  .methods { margin-top: 32px; gap: 32px; }
+  .methodNumber { margin-bottom: 12px; }
+  .footer { flex-direction: column; align-items: start; gap: 24px; }
+  .footer p { text-align: left; }
+  .speciesHero { display: flex; flex-direction: column; align-items: start; gap: 54px; }
+  .speciesHero h1 { font-size: 88px; }
+  .speciesHero .intro { font-size: 18px; }
+  .speciesFigure { max-width: 240px; align-self: center; }
+  .speciesStudy h2 { max-width: none; }
+}

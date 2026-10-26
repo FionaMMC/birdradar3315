@@ -1,0 +1,911 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-10-23T06:31:50.887Z",
+  "comp": ".impeccable/mocks/revised-atlas.png",
+  "warnings": [
+    "region map: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region map: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#0b121d",
+      "coverage": 0.8232
+    },
+    {
+      "hex": "#2f3b35",
+      "coverage": 0.0711
+    },
+    {
+      "hex": "#0e2242",
+      "coverage": 0.0434
+    },
+    {
+      "hex": "#2d4151",
+      "coverage": 0.0319
+    },
+    {
+      "hex": "#254f6e",
+      "coverage": 0.0304
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0471,
+      "strength": 0.3718
+    },
+    {
+      "y": 0.1412,
+      "strength": 0.3038
+    },
+    {
+      "y": 0.1647,
+      "strength": 0.2209
+    },
+    {
+      "y": 0.1882,
+      "strength": 0.3866
+    },
+    {
+      "y": 0.2235,
+      "strength": 0.3572
+    },
+    {
+      "y": 0.2706,
+      "strength": 0.2764
+    },
+    {
+      "y": 0.5412,
+      "strength": 0.2324
+    }
+  ],
+  "regions": [
+    {
+      "id": "map",
+      "kind": "control",
+      "note": "Interactive geographic chart: terrain tiles and data-driven heat field, not a static illustration. Source records determine geographic geometry.",
+      "grid": "A0:J9",
+      "codeDrawn": true,
+      "container": true,
+      "snap": false,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 1024
+      },
+      "aspect": 1.5,
+      "palette": [
+        {
+          "hex": "#0b121d",
+          "coverage": 0.8232
+        },
+        {
+          "hex": "#2f3b35",
+          "coverage": 0.0711
+        },
+        {
+          "hex": "#0e2242",
+          "coverage": 0.0434
+        },
+        {
+          "hex": "#2d4151",
+          "coverage": 0.0319
+        },
+        {
+          "hex": "#254f6e",
+          "coverage": 0.0304
+        }
+      ],
+      "detail": {
+        "energy": 28.0205
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "navigation",
+      "kind": "control",
+      "note": "Borderless white navigation in one horizontal row",
+      "grid": "A0:E0",
+      "snap": false,
+      "box": {
+        "x": 0.0339,
+        "y": 0.0254,
+        "w": 0.3711,
+        "h": 0.0332
+      },
+      "px": {
+        "x": 52,
+        "y": 26,
+        "w": 570,
+        "h": 34
+      },
+      "aspect": 16.7647,
+      "palette": [
+        {
+          "hex": "#0f161e",
+          "coverage": 0.8227
+        },
+        {
+          "hex": "#364044",
+          "coverage": 0.0591
+        },
+        {
+          "hex": "#f4f4f4",
+          "coverage": 0.0582
+        },
+        {
+          "hex": "#808590",
+          "coverage": 0.0338
+        },
+        {
+          "hex": "#a2a9ad",
+          "coverage": 0.0262
+        }
+      ],
+      "detail": {
+        "energy": 51.8552
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Migration, in motion. Large white sans serif two lines",
+      "grid": "A1:C2",
+      "snap": false,
+      "box": {
+        "x": 0.0332,
+        "y": 0.1113,
+        "w": 0.25,
+        "h": 0.1611
+      },
+      "px": {
+        "x": 51,
+        "y": 114,
+        "w": 384,
+        "h": 165
+      },
+      "aspect": 2.3273,
+      "palette": [
+        {
+          "hex": "#0b0c10",
+          "coverage": 0.652
+        },
+        {
+          "hex": "#f7f7f4",
+          "coverage": 0.2747
+        },
+        {
+          "hex": "#36373a",
+          "coverage": 0.0428
+        },
+        {
+          "hex": "#b5b1af",
+          "coverage": 0.0208
+        },
+        {
+          "hex": "#6e6f6e",
+          "coverage": 0.0098
+        }
+      ],
+      "detail": {
+        "energy": 57.3021
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 17,
+          "capHeightPx": 64.6,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6167,
+          "advTall": 0.1696,
+          "advX": 0.7015,
+          "gap": 0.0925,
+          "xRatio": 0.7162,
+          "stemW": 0.1605,
+          "contrast": 1.104,
+          "serif": 0.9907,
+          "densTall": 0.8839,
+          "densX": 0.5613,
+          "weight": 0.8839
+        },
+        "widthClass": "normal",
+        "weightClass": "black",
+        "chosen": {
+          "family": "Geom",
+          "weight": 400,
+          "fontSizePx": 92,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "f13648c5a311"
+        }
+      }
+    },
+    {
+      "id": "species-select",
+      "kind": "control",
+      "note": "Unboxed species selector",
+      "grid": "A2:B3",
+      "snap": false,
+      "box": {
+        "x": 0.0339,
+        "y": 0.2939,
+        "w": 0.1302,
+        "h": 0.0332
+      },
+      "px": {
+        "x": 52,
+        "y": 301,
+        "w": 200,
+        "h": 34
+      },
+      "aspect": 5.8824,
+      "palette": [
+        {
+          "hex": "#08080e",
+          "coverage": 0.8772
+        },
+        {
+          "hex": "#f3f3f2",
+          "coverage": 0.0614
+        },
+        {
+          "hex": "#abaaaa",
+          "coverage": 0.0288
+        },
+        {
+          "hex": "#767878",
+          "coverage": 0.0163
+        },
+        {
+          "hex": "#4d4c54",
+          "coverage": 0.0163
+        }
+      ],
+      "detail": {
+        "energy": 34.0691
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "period",
+      "kind": "text",
+      "note": "Historical tracks and actual source date period",
+      "grid": "A3:C3",
+      "snap": false,
+      "box": {
+        "x": 0.0339,
+        "y": 0.3389,
+        "w": 0.1966,
+        "h": 0.0244
+      },
+      "px": {
+        "x": 52,
+        "y": 347,
+        "w": 302,
+        "h": 25
+      },
+      "aspect": 12.08,
+      "palette": [
+        {
+          "hex": "#080912",
+          "coverage": 0.8053
+        },
+        {
+          "hex": "#838893",
+          "coverage": 0.0858
+        },
+        {
+          "hex": "#2c3040",
+          "coverage": 0.0396
+        },
+        {
+          "hex": "#555864",
+          "coverage": 0.0385
+        },
+        {
+          "hex": "#253333",
+          "coverage": 0.0308
+        }
+      ],
+      "detail": {
+        "energy": 54.1512
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 26,
+          "capHeightPx": 14.6,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6328,
+          "advTall": 0.6841,
+          "advX": 0.6157,
+          "gap": 0.1026,
+          "xRatio": 0.7383,
+          "stemW": 0.1633,
+          "contrast": 1.1162,
+          "serif": 0.4928,
+          "densTall": 0.4766,
+          "densX": 0.4953,
+          "weight": 0.4766
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "layers",
+      "kind": "control",
+      "note": "Density Tracks Observations layer buttons",
+      "grid": "I0:J0",
+      "snap": false,
+      "box": {
+        "x": 0.8008,
+        "y": 0.0273,
+        "w": 0.1738,
+        "h": 0.0293
+      },
+      "px": {
+        "x": 1230,
+        "y": 28,
+        "w": 267,
+        "h": 30
+      },
+      "aspect": 8.9,
+      "palette": [
+        {
+          "hex": "#0a1826",
+          "coverage": 0.847
+        },
+        {
+          "hex": "#6e7683",
+          "coverage": 0.0521
+        },
+        {
+          "hex": "#3c4755",
+          "coverage": 0.0406
+        },
+        {
+          "hex": "#0d1737",
+          "coverage": 0.0313
+        },
+        {
+          "hex": "#959daa",
+          "coverage": 0.029
+        }
+      ],
+      "detail": {
+        "energy": 42.5723
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "stamp",
+      "kind": "plate",
+      "note": "Complete pale iridescent perforated Osprey postage card with transparent surroundings; no currency or country markings",
+      "grid": "H1:J5",
+      "snap": false,
+      "box": {
+        "x": 0.7799,
+        "y": 0.1543,
+        "w": 0.179,
+        "h": 0.4023
+      },
+      "px": {
+        "x": 1198,
+        "y": 158,
+        "w": 275,
+        "h": 412
+      },
+      "aspect": 0.6675,
+      "palette": [
+        {
+          "hex": "#2e4f77",
+          "coverage": 0.3051
+        },
+        {
+          "hex": "#0a111a",
+          "coverage": 0.2593
+        },
+        {
+          "hex": "#d3cdbf",
+          "coverage": 0.2211
+        },
+        {
+          "hex": "#597fa4",
+          "coverage": 0.1309
+        },
+        {
+          "hex": "#a09e99",
+          "coverage": 0.0836
+        }
+      ],
+      "detail": {
+        "energy": 49.5564
+      },
+      "medium": "raster",
+      "plate": "web/public/assets/atlas/atlas-osprey-stamp.png",
+      "text": null
+    },
+    {
+      "id": "bird-name",
+      "kind": "text",
+      "note": "Osprey species title",
+      "grid": "H5:J5",
+      "snap": false,
+      "box": {
+        "x": 0.7852,
+        "y": 0.5645,
+        "w": 0.1302,
+        "h": 0.0293
+      },
+      "px": {
+        "x": 1206,
+        "y": 578,
+        "w": 200,
+        "h": 30
+      },
+      "aspect": 6.6667,
+      "palette": [
+        {
+          "hex": "#080d19",
+          "coverage": 0.871
+        },
+        {
+          "hex": "#f2f2f1",
+          "coverage": 0.0895
+        },
+        {
+          "hex": "#555a65",
+          "coverage": 0.0152
+        },
+        {
+          "hex": "#cdc8ca",
+          "coverage": 0.0137
+        },
+        {
+          "hex": "#a8a8af",
+          "coverage": 0.0106
+        }
+      ],
+      "detail": {
+        "energy": 37.4579
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 6,
+          "capHeightPx": 22.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6212,
+          "advTall": 0.8874,
+          "advX": 0.6212,
+          "gap": 0.0444,
+          "xRatio": 0.6718,
+          "stemW": 0.1534,
+          "contrast": 1.1339,
+          "serif": null,
+          "densTall": 0.4116,
+          "densX": 0.5612,
+          "weight": 0.4116
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "bird-latin",
+      "kind": "text",
+      "note": "Scientific species name",
+      "grid": "H5:J6",
+      "snap": false,
+      "box": {
+        "x": 0.7852,
+        "y": 0.5996,
+        "w": 0.1445,
+        "h": 0.0273
+      },
+      "px": {
+        "x": 1206,
+        "y": 614,
+        "w": 222,
+        "h": 28
+      },
+      "aspect": 7.9286,
+      "palette": [
+        {
+          "hex": "#09121b",
+          "coverage": 0.8824
+        },
+        {
+          "hex": "#848a99",
+          "coverage": 0.0757
+        },
+        {
+          "hex": "#3c4853",
+          "coverage": 0.0338
+        },
+        {
+          "hex": "#5b6b72",
+          "coverage": 0.0068
+        },
+        {
+          "hex": "#080828",
+          "coverage": 0.0014
+        }
+      ],
+      "detail": {
+        "energy": 26.4318
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 15,
+          "capHeightPx": 13.9,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6481,
+          "advTall": 0.5401,
+          "advX": 0.6481,
+          "gap": 0.072,
+          "xRatio": 0.7347,
+          "stemW": 0.1553,
+          "contrast": 1.1163,
+          "serif": 0.3909,
+          "densTall": 0.4464,
+          "densX": 0.5185,
+          "weight": 0.4464
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "collectible-link",
+      "kind": "control",
+      "note": "View collectible text link",
+      "grid": "H6:J6",
+      "snap": false,
+      "box": {
+        "x": 0.7852,
+        "y": 0.6348,
+        "w": 0.1367,
+        "h": 0.0273
+      },
+      "px": {
+        "x": 1206,
+        "y": 650,
+        "w": 210,
+        "h": 28
+      },
+      "aspect": 7.5,
+      "palette": [
+        {
+          "hex": "#09151f",
+          "coverage": 0.8037
+        },
+        {
+          "hex": "#445060",
+          "coverage": 0.1232
+        },
+        {
+          "hex": "#7e8492",
+          "coverage": 0.0372
+        },
+        {
+          "hex": "#a4acb4",
+          "coverage": 0.0258
+        },
+        {
+          "hex": "#081333",
+          "coverage": 0.01
+        }
+      ],
+      "detail": {
+        "energy": 30.8359
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "legend",
+      "kind": "control",
+      "note": "Small density colour ramp and explanatory text",
+      "grid": "A8:B8",
+      "snap": false,
+      "box": {
+        "x": 0.0339,
+        "y": 0.8477,
+        "w": 0.1354,
+        "h": 0.0459
+      },
+      "px": {
+        "x": 52,
+        "y": 868,
+        "w": 208,
+        "h": 47
+      },
+      "aspect": 4.4255,
+      "palette": [
+        {
+          "hex": "#080916",
+          "coverage": 0.7287
+        },
+        {
+          "hex": "#306e81",
+          "coverage": 0.0795
+        },
+        {
+          "hex": "#a59ae7",
+          "coverage": 0.0725
+        },
+        {
+          "hex": "#858c93",
+          "coverage": 0.0632
+        },
+        {
+          "hex": "#f7d3af",
+          "coverage": 0.0561
+        }
+      ],
+      "detail": {
+        "energy": 26.503
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "timeline",
+      "kind": "control",
+      "note": "Play button and monthly timeline",
+      "grid": "C8:H9",
+      "snap": false,
+      "box": {
+        "x": 0.2708,
+        "y": 0.8564,
+        "w": 0.4909,
+        "h": 0.0576
+      },
+      "px": {
+        "x": 416,
+        "y": 877,
+        "w": 754,
+        "h": 59
+      },
+      "aspect": 12.7797,
+      "palette": [
+        {
+          "hex": "#0d131b",
+          "coverage": 0.8604
+        },
+        {
+          "hex": "#212c25",
+          "coverage": 0.0824
+        },
+        {
+          "hex": "#463b3a",
+          "coverage": 0.0218
+        },
+        {
+          "hex": "#737784",
+          "coverage": 0.0183
+        },
+        {
+          "hex": "#535a5d",
+          "coverage": 0.0171
+        }
+      ],
+      "detail": {
+        "energy": 23.7147
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "zoom",
+      "kind": "control",
+      "note": "Bare plus minus map zoom buttons",
+      "grid": "J8:J9",
+      "snap": false,
+      "box": {
+        "x": 0.9453,
+        "y": 0.8369,
+        "w": 0.0273,
+        "h": 0.0762
+      },
+      "px": {
+        "x": 1452,
+        "y": 857,
+        "w": 42,
+        "h": 78
+      },
+      "aspect": 0.5385,
+      "palette": [
+        {
+          "hex": "#1d1d2d",
+          "coverage": 0.6429
+        },
+        {
+          "hex": "#142424",
+          "coverage": 0.3104
+        },
+        {
+          "hex": "#888d8e",
+          "coverage": 0.0275
+        },
+        {
+          "hex": "#c8cdd5",
+          "coverage": 0.0165
+        },
+        {
+          "hex": "#586868",
+          "coverage": 0.0027
+        }
+      ],
+      "detail": {
+        "energy": 2.8945
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "sources",
+      "kind": "control",
+      "note": "Source attribution and data details",
+      "grid": "A9:D9",
+      "snap": false,
+      "box": {
+        "x": 0.0339,
+        "y": 0.9453,
+        "w": 0.2995,
+        "h": 0.0244
+      },
+      "px": {
+        "x": 52,
+        "y": 968,
+        "w": 460,
+        "h": 25
+      },
+      "aspect": 18.4,
+      "palette": [
+        {
+          "hex": "#080b14",
+          "coverage": 0.9242
+        },
+        {
+          "hex": "#7e848f",
+          "coverage": 0.0332
+        },
+        {
+          "hex": "#4b565c",
+          "coverage": 0.0188
+        },
+        {
+          "hex": "#272f37",
+          "coverage": 0.0159
+        },
+        {
+          "hex": "#9fa8ae",
+          "coverage": 0.0079
+        }
+      ],
+      "detail": {
+        "energy": 22.3407
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "status",
+      "kind": "text",
+      "note": "Honest historical sample label replacing conceptual preview caption",
+      "grid": "H9:J9",
+      "snap": false,
+      "box": {
+        "x": 0.7747,
+        "y": 0.9443,
+        "w": 0.1979,
+        "h": 0.0244
+      },
+      "px": {
+        "x": 1190,
+        "y": 967,
+        "w": 304,
+        "h": 25
+      },
+      "aspect": 12.16,
+      "palette": [
+        {
+          "hex": "#141525",
+          "coverage": 0.4477
+        },
+        {
+          "hex": "#0e1e1e",
+          "coverage": 0.4129
+        },
+        {
+          "hex": "#676f79",
+          "coverage": 0.1035
+        },
+        {
+          "hex": "#3d4351",
+          "coverage": 0.0349
+        },
+        {
+          "hex": "#9898a8",
+          "coverage": 0.0011
+        }
+      ],
+      "detail": {
+        "energy": 28.1968
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 26,
+          "capHeightPx": 10,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6314,
+          "advTall": 0.3988,
+          "advX": 0.6314,
+          "gap": 0.0665,
+          "xRatio": 0.7395,
+          "stemW": 0.1822,
+          "contrast": 1.2079,
+          "serif": null,
+          "densTall": 0.4966,
+          "densX": 0.6235,
+          "weight": 0.4966
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    }
+  ]
+}

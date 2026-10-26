@@ -1,0 +1,110 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-10-23T06:10:36.169Z",
+  "comp": ".impeccable/mocks/revised-atlas.png",
+  "direction": "68218b1e",
+  "breakpoint": "1536x1024",
+  "artifact": null,
+  "phase": "plates",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-10-23T06:10:36.169Z",
+      "closedAt": "2026-10-23T06:29:30.147Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "8 comps, 1 approved",
+        "approved": ".impeccable/mocks/revised-atlas.png",
+        "at": "2026-10-23T06:29:30.146Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-10-23T06:29:30.167Z",
+      "closedAt": "2026-10-23T06:33:11.093Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "15 regions, 1 plates, 5 text regions measured",
+        "at": "2026-10-23T06:33:11.092Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "open",
+      "openedAt": "2026-10-23T06:33:11.093Z",
+      "closedAt": null,
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "plate web/public/assets/atlas/atlas-osprey-stamp.png: structure 23% against the comp region stamp: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop stamp as the reference image"
+        ],
+        "summary": "1/1 plates",
+        "at": "2026-10-23T06:41:35.152Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "plates": {
+    "stamp": {
+      "status": "ok",
+      "score": 0.4666,
+      "size": "1024x1536"
+    }
+  }
+}

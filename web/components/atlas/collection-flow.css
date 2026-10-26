@@ -1,0 +1,55 @@
+.collection-experience .collection-hero { min-height: 1040px; }
+.collection-position { color: #bdd0de; font-size: 11px; font-variant-numeric: tabular-nums; line-height: 1.5; display: inline-block; margin-top: 4px; }
+.collection-request-note { max-width: 36ch; color: #c7d7e5; font-size: 13px; line-height: 1.65; margin-top: 20px; }
+.collection-request-note p { margin: 0 0 8px; }
+.collection-request-note a { display: inline-flex; align-items: center; gap: 10px; min-height: 36px; }
+.collection-request-note svg { width: 15px; height: 15px; }
+.collection-fan__item--centre .bird-stamp { animation: collection-present 440ms cubic-bezier(.16,1,.3,1); }
+@keyframes collection-present { from { transform: rotate(-3deg) scale(.97); filter: brightness(.85); } to { transform: rotate(0) scale(1); filter: brightness(1); } }
+.collection-feature-save svg { transition: transform 180ms cubic-bezier(.16,1,.3,1),color 180ms; }
+.collection-feature-save[aria-pressed=true] { color: #f6dfa3 !important; }
+.collection-feature-save:active svg { transform: scale(.85); }
+.collection-bird-context { display: flex; gap: 12%; justify-content: space-between; align-items: center; padding: 65px 6% 15px; }
+.collection-bird-context h2 { font-size: clamp(30px,3vw,44px); line-height: 1.15; font-weight: 450; letter-spacing: -.025em; margin: 0 0 22px; }
+.collection-bird-context p { max-width: 62ch; color: #b9ccdc; font-size: 14px; line-height: 1.8; margin: 8px 0; }
+.collection-bird-context strong { color: #e5edf3; font-weight: 450; }
+.collection-context-links { flex-shrink: 0; display: flex; flex-direction: column; gap: 10px; max-width: 300px; }
+.collection-context-links a,.collection-field-link { display: inline-flex; align-items: center; gap: 15px; min-height: 44px; font-size: 14px; }
+.collection-context-links svg,.collection-field-link svg { width: 16px; height: 16px; flex-shrink: 0; }
+.collection-library-filters { display: flex; gap: 30px; margin: -20px 0 38px; }
+.collection-library-filters button { position: relative; color: #aac0d1; background: transparent; border: 0; padding: 0 0 10px; min-height: 44px; font-size: 15px; display: inline-flex; align-items: center; gap: 10px; }
+.collection-library-filters button span { font-size: 12px; font-variant-numeric: tabular-nums; }
+.collection-library-filters button::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: #d3e3ee; transform: scaleX(0); transform-origin: left; transition: transform 200ms cubic-bezier(.16,1,.3,1); }
+.collection-library-filters button[aria-pressed=true] { color: #fff; }
+.collection-library-filters button[aria-pressed=true]::after { transform: scaleX(1); }
+.collection-field-link { font-size: 12px; color: #c0d1df !important; }
+.collection-empty { min-height: 230px; padding: 15px 0 30px; }
+.collection-empty h3 { margin: 0 0 15px; font-size: clamp(26px,3vw,38px); line-height: 1.2; font-weight: 450; letter-spacing: -.025em; }
+.collection-empty p { max-width: 52ch; color: #bbcedc; font-size: 15px; line-height: 1.8; margin: 0 0 20px; }
+.collection-empty :is(a,button) { display: inline-flex; gap: 14px; align-items: center; min-height: 44px; margin-right: 28px; background: none; border: 0; color: #edf2f6; padding: 0; font-size: 14px; }
+.collection-empty svg { width: 16px; height: 16px; }
+.collection-night-journal { display: grid; grid-template-columns: 1.4fr 1fr; gap: 11%; padding: 70px 6% 100px; background: linear-gradient(#08131f,#0c1c28); }
+.collection-night-journal h2 { font-size: clamp(35px,4vw,58px); line-height: 1.07; letter-spacing: -.035em; font-weight: 450; margin: 0 0 25px; }
+.collection-night-journal p { max-width: 53ch; color: #c2d2df; font-size: 15px; line-height: 1.8; margin: 0; }
+.collection-night-journal__actions { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+.collection-night-journal__actions > span { color: #b1c5d5; font-size: 12px; margin-top: 6px; }
+.collection-night-journal__actions a { display: flex; align-items: center; gap: 15px; min-height: 44px; font-size: 16px; margin-top: 18px; }
+.collection-night-journal__actions a + a { font-size: 13px; margin-top: 0; }
+.collection-night-journal__actions svg { width: 18px; height: 18px; }
+.collection-night-journal small { margin-top: 15px; font-size: 11px; line-height: 1.7; color: #afc2d1; }
+.collection-experience :is(.collection-context-links a,.collection-field-link,.collection-night-journal a):hover { text-decoration: underline; }
+@media (max-width: 1100px) and (min-width: 761px) { .collection-experience .collection-hero { min-height: 1080px; } }
+@media (max-width: 760px) {
+  .collection-experience .collection-hero { min-height: max(960px,calc(79.5vw + 650px)); }
+  .collection-bird-context { padding-top: 48px; flex-direction: column; align-items: stretch; gap: 22px; }
+  .collection-context-links { max-width: none; }
+  .collection-library-filters { margin: 0 0 30px; }
+  .collection-night-journal { grid-template-columns: 1fr; gap: 32px; padding-top: 38px; padding-bottom: 65px; }
+  .collection-request-note { max-width: 45ch; font-size: 12px; margin-top: 12px; }
+  .collection-intro:has(.collection-request-note) ~ .collection-fan { top: 490px; }
+  .collection-hero:has(.collection-request-note) { padding-bottom: 100px; min-height: max(1060px,calc(79.5vw + 750px)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .collection-fan__item--centre .bird-stamp { animation: none; }
+  .collection-feature-save svg,.collection-library-filters button::after { transition: none; }
+}

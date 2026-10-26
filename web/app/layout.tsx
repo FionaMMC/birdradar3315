@@ -1,16 +1,11 @@
 import type { Metadata } from 'next'
-import { Montserrat } from 'next/font/google'
+import '@fontsource-variable/geom'
+import 'leaflet/dist/leaflet.css'
 import './globals.css'
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-montserrat',
-})
-
 export const metadata: Metadata = {
-  title: 'BirdsRadar - Protect Our Migratory Birds',
-  description: 'Join Sydney\'s citizen-science movement to track bird migrations and reduce light pollution',
+  title: 'BirdRadar — A world in flight',
+  description: 'Explore real historical bird tracking, discover migration across continents, and collect illustrated bird stamps.',
 }
 
 export default function RootLayout({
@@ -20,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} font-sans`} style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }

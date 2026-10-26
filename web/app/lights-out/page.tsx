@@ -1,5 +1,5 @@
-import LightsOutChallenge from '@/components/LightsOutChallenge';
+import LightsOutExperience from '@/components/atlas/LightsOutExperience';
 
 export default function LightsOutPage() {
-  return <LightsOutChallenge />;
+  return <LightsOutExperience />;
 }

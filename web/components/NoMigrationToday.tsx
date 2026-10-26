@@ -1,5 +1,6 @@
 'use client';
 
+import { assetUrl } from "@/lib/site-path";
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
@@ -51,7 +52,7 @@ const NoMigrationToday = () => {
             playsInline
             className="w-full h-full object-cover opacity-70"
           >
-            <source src={videoSrc} type="video/mp4" />
+            <source src={assetUrl(videoSrc)} type="video/mp4" />
           </video>
         )}
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/40 to-blue-950/60" />
