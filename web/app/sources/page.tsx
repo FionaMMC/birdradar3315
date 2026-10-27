@@ -4,6 +4,7 @@ import Link from "next/link";
 import SiteNav from "@/components/atlas/SiteNav";
 import styles from "@/components/atlas/ResearchPage.module.css";
 import snapshot from "@/public/data/migration-snapshot.json";
+import { BIRDS } from "@/lib/birds";
 import { getMigrationSummary, type MigrationDataset } from "@/lib/migration-data";
 
 export const metadata: Metadata = {
@@ -14,7 +15,9 @@ export const metadata: Metadata = {
 const data = snapshot as MigrationDataset;
 const summary = getMigrationSummary(data);
 const telemetry = data.sources.filter((source) => source.kind === "telemetry");
-const occurrence = data.sources.find((source) => source.kind === "occurrence")!;
+const occurrenceSources = data.sources.filter((source) => source.kind === "occurrence");
+const observationContributors = [...new Map(occurrenceSources.flatMap((source) => source.attributions || []).map((attribution) => [attribution.datasetKey, attribution])).values()];
+const photographedBirds = BIRDS.filter((bird) => bird.photo);
 const number = (value: number) => value.toLocaleString("en-AU");
 const date = (value: string) => new Date(value).toLocaleDateString("en-AU", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
 const refreshed = (value: string) => new Date(value).toLocaleString("en-AU", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Australia/Sydney", timeZoneName: "short" });
@@ -32,6 +35,7 @@ export default function SourcesPage() {
       <nav className={styles.jumpLinks} aria-label="On this page">
         <a href="#tracking">Individual tracking <span aria-hidden="true">↘</span></a>
         <a href="#observations">Observations <span aria-hidden="true">↘</span></a>
+        <a href="#photography">Bird photography <span aria-hidden="true">↘</span></a>
         <a href="#reading-the-map">Reading the map <span aria-hidden="true">↘</span></a>
       </nav>
       <div className={styles.snapshot}>
@@ -79,27 +83,41 @@ export default function SourcesPage() {
       </div>
       <div className={styles.occurrenceIntro}>
         <article className={styles.study}>
-          <h3>Bar-tailed godwit</h3>
-          <p className={styles.scientificName}>Limosa lapponica</p>
+          <h3>Many birds, many observers.</h3>
           <dl className={styles.facts}>
-            <div><dt>Included observations</dt><dd>{number(occurrence.retainedRecordCount)}</dd></div>
-            <div><dt>Contributing datasets</dt><dd>{occurrence.attributions?.length}</dd></div>
-            <div className={styles.wideFact}><dt>Returned records · UTC</dt><dd>{date(occurrence.period.start)} – {date(occurrence.period.end)}</dd></div>
+            <div><dt>Included observations</dt><dd>{number(summary.occurrenceCount)}</dd></div>
+            <div><dt>Species samples</dt><dd>{occurrenceSources.length}</dd></div>
+            <div><dt>Contributing datasets</dt><dd>{observationContributors.length}</dd></div>
           </dl>
-          <div className={styles.sourceLinks}><a href={occurrence.url}>GBIF species record <span aria-hidden="true">↗</span></a></div>
-          <p className={styles.retrieved}>Source retrieved <time dateTime={occurrence.retrievedAt}>{refreshed(occurrence.retrievedAt)}</time></p>
+          <div className={styles.sourceLinks}><a href={assetUrl("/data/gbif-catalog-query-provenance.json")}>Monthly query provenance <span aria-hidden="true">↗</span></a></div>
         </article>
         <div className={styles.copy}>
-          <p>The query covers 90–180°E and 50°S–75°N, requesting up to 50 results per calendar month from 2023–2025. The returned, eligible records span 2024–2025.</p>
+          <p>The expanded catalog uses small monthly global and Australian samples from 2024–2025. The earlier Bar-tailed Godwit sample covers selected East Asian and Australasian records. Each sample’s query method and returned dates are preserved below.</p>
           <p>This is a convenience sample in the API’s returned order. Coverage depends on where people observed and shared birds; the sample is neither complete nor adjusted for observer effort. Point counts cannot be read as population size.</p>
           <p>Observation heat gives each independent record one contribution, blending nearby records within a finite radius. Its fixed colour scale uses the selected species’ full-period sample as the denominator, so filtering a month does not inflate its colours. Recording effort remains part of the pattern.</p>
           <p>Included records carry CC0 or CC BY licenses. Each observation on the map links to its source record. The contributing catalog’s license can differ from the license attached to an individual record; both are preserved below.</p>
         </div>
       </div>
+      <h3 className={styles.attributionHeading}>Every observation sample.</h3>
+      <div className={styles.attributions}>
+        {occurrenceSources.map((source) => {
+          const records = data.occurrences.filter((record) => record.sourceId === source.id);
+          const species = data.species.find((bird) => bird.id === records[0]?.speciesId);
+          return <details key={source.id} id={source.id} className={styles.attribution}>
+            <summary>{species?.name || source.name} · {number(source.retainedRecordCount)} observations</summary>
+            {species && <p className={styles.scientificName}>{species.scientificName}</p>}
+            <p className={styles.citation}>{source.method}</p>
+            <p className={styles.license}>Returned records · {date(source.period.start)} – {date(source.period.end)}<br />{source.attributions?.length || 0} contributing datasets</p>
+            <div className={styles.sourceLinks}><a href={source.url}>GBIF species record <span aria-hidden="true">↗</span></a>{species && <Link href={`/track-migration?species=${species.id}&month=all`}>Explore this sample <span aria-hidden="true">↗</span></Link>}</div>
+            <p className={styles.citation}>{source.citation}</p>
+            <p className={styles.retrieved}>Source retrieved <time dateTime={source.retrievedAt}>{refreshed(source.retrievedAt)}</time></p>
+          </details>;
+        })}
+      </div>
       <h3 className={styles.attributionHeading}>With thanks to the contributors.</h3>
       <p className={styles.attributionNote}>Open a dataset for its full citation, catalog license and examples of the licensed records included in this snapshot.</p>
       <div className={styles.attributions}>
-        {occurrence.attributions?.map((attribution) => {
+        {observationContributors.map((attribution) => {
           const records = data.occurrences.filter((record) => record.datasetKey === attribution.datasetKey);
           const examples = [...new Map(records.map((record) => [record.license, record])).values()];
           const doi = attribution.citation.match(/https:\/\/doi\.org\/[^\s]+/)?.[0];
@@ -115,6 +133,11 @@ export default function SourcesPage() {
           </details>;
         })}
       </div>
+    </section>
+
+    <section id="photography" className={styles.section} aria-labelledby="photography-title">
+      <div className={styles.sectionHeading}><h2 id="photography-title">Real birds.<br />Shared with care.</h2><p>Species photographs are credited separately from research records and illustrated stamps. Images are cropped to fit the photographic postage format; their source and license remain available here and beside the unlocked artwork.</p></div>
+      <div className={styles.attributions}>{photographedBirds.map((bird) => <details key={bird.id} className={styles.attribution}><summary>{bird.name} · {bird.photoLicense}</summary><p className={styles.citation}>{bird.photoCredit}. Cropped for display in BirdRadar’s stamp collection.</p><div className={styles.sourceLinks}><a href={bird.photoSource}>Original photograph <span aria-hidden="true">↗</span></a><a href={bird.photoLicenseUrl}>{bird.photoLicense} license <span aria-hidden="true">↗</span></a><Link href={`/species/${bird.id}`}>Field notes <span aria-hidden="true">↗</span></Link></div></details>)}</div>
     </section>
 
     <section id="reading-the-map" className={styles.section} aria-labelledby="reading-title">

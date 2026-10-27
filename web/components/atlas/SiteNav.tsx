@@ -22,10 +22,11 @@ export default function SiteNav({ active }: { active?: "home" | "explore" | "col
       <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">{open ? <path d="m5 5 14 14M19 5 5 19"/> : <path d="M3 8h18M3 16h18"/>}</svg>
     </button>
     <nav id="site-links" aria-label="Main navigation" onClick={() => setOpen(false)} className={`site-links${open ? " site-links--open" : ""}`}>
+      <Link className="site-links__action" href="/lights-out" aria-current={active === "lights-out" || pathname === "/lights-out" ? "page" : undefined}>Lights Out <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="M15.5 12.4A7 7 0 0 1 7.6 4.5 6.2 6.2 0 1 0 15.5 12.4Z" /></svg></Link>
       <Link href="/track-migration" aria-current={active === "explore" ? "page" : undefined}>Map</Link>
       <Link href="/species-library" aria-current={active === "birds" ? "page" : undefined}>Birds</Link>
-      <Link href="/collection" aria-current={active === "collection" ? "page" : undefined}>Collection</Link>
-      <Link className="site-links__action" href="/lights-out" aria-current={active === "lights-out" || pathname === "/lights-out" ? "page" : undefined}>Lights Out <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="M15.5 12.4A7 7 0 0 1 7.6 4.5 6.2 6.2 0 1 0 15.5 12.4Z" /></svg></Link>
+      <Link href="/collection" aria-current={active === "collection" ? "page" : undefined}>Gallery</Link>
+
     </nav>
   </header>;
 }

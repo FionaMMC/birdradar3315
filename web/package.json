@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test scripts/migration-data.test.mts scripts/nearby-data.test.mts scripts/lights-out.test.mts scripts/bird-flow.test.mts scripts/atlas-selection.test.mts scripts/browser-data.test.mts scripts/site-path.test.mts components/atlas/map-palette.test.mts components/atlas/observation-heat.test.mts && python3 -m unittest discover -s scripts -p \"test_*.py\"",
+    "test": "node --experimental-strip-types --test scripts/migration-data.test.mts scripts/nearby-data.test.mts scripts/lights-out.test.mts scripts/night-rewards.test.mts scripts/night-discovery.test.mts scripts/stamp-reward-view.test.mts scripts/bird-flow.test.mts scripts/atlas-selection.test.mts scripts/browser-data.test.mts scripts/site-path.test.mts components/atlas/map-palette.test.mts components/atlas/observation-heat.test.mts && python3 -m unittest discover -s scripts -p \"test_*.py\"",
     "refresh:data": "python3 scripts/refresh-migration-data.py",
     "build:pages": "node scripts/build-pages.mjs"
   },

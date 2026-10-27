@@ -59,6 +59,22 @@ class MigrationIngestionTests(unittest.TestCase):
         self.assertEqual(len(tracks), 1)
         self.assertEqual([p["timestamp"] for p in tracks[0]["points"]], ["2020-01-02T00:00:00.000Z"])
 
+    def test_catalog_observations_require_a_real_date_matching_taxon_and_open_license(self):
+        row = dict(key=123, speciesKey=456, eventDate="2025-01-15", decimalLatitude=-33.8, decimalLongitude=151.2,
+                   occurrenceStatus="PRESENT", basisOfRecord="HUMAN_OBSERVATION", datasetKey="dataset",
+                   license="http://creativecommons.org/licenses/by/4.0/legalcode")
+        species = dict(id="test-bird")
+        point = ingestion.parse_catalog_occurrence(row, species, 456, 1)
+        self.assertEqual(point["timestamp"], "2025-01-15T00:00:00.000Z")
+        self.assertEqual(point["sourceId"], "gbif-catalog-test-bird")
+        self.assertEqual(point["license"], row["license"])
+        for changes in [dict(speciesKey=999), dict(eventDate="2025-01"), dict(eventDate="2023-01-15"),
+                        dict(eventDate="2025-02-15"), dict(decimalLatitude=91), dict(occurrenceStatus="ABSENT"),
+                        dict(basisOfRecord="PRESERVED_SPECIMEN"), dict(license="https://creativecommons.org/licenses/by-nc/4.0/legalcode"),
+                        dict(license="https://creativecommons.org/licenses/by/4.0/other")]:
+            self.assertIsNone(ingestion.parse_catalog_occurrence(row | changes, species, 456, 1), changes)
+        self.assertIsNotNone(ingestion.parse_catalog_occurrence(row | dict(license="http://creativecommons.org/publicdomain/zero/1.0/legalcode"), species, 456, 1))
+
 
 if __name__ == "__main__":
     unittest.main()

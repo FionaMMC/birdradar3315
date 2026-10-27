@@ -1,0 +1,114 @@
+[
+  {
+    "id": "lathams-snipe",
+    "name": "Latham’s Snipe",
+    "scientificName": "Gallinago hardwickii",
+    "nameZh": "大沙锥",
+    "color": "#80cdd7"
+  },
+  {
+    "id": "red-necked-stint",
+    "name": "Red-necked Stint",
+    "scientificName": "Calidris ruficollis",
+    "nameZh": "红颈滨鹬",
+    "color": "#e9a8af"
+  },
+  {
+    "id": "painted-snipe",
+    "name": "Australian Painted-snipe",
+    "scientificName": "Rostratula australis",
+    "nameZh": "澳洲彩鹬",
+    "color": "#d8b5ef"
+  },
+  {
+    "id": "pacific-golden-plover",
+    "name": "Pacific Golden Plover",
+    "scientificName": "Pluvialis fulva",
+    "nameZh": "太平洋金斑鸻",
+    "color": "#edc87d"
+  },
+  {
+    "id": "rainbow-bee-eater",
+    "name": "Rainbow Bee-eater",
+    "scientificName": "Merops ornatus",
+    "nameZh": "彩虹蜂虎",
+    "color": "#a7dca0"
+  },
+  {
+    "id": "black-faced-spoonbill",
+    "name": "Black-faced Spoonbill",
+    "scientificName": "Platalea minor",
+    "nameZh": "黑脸琵鹭",
+    "color": "#b3c9ef"
+  },
+  {
+    "id": "ruddy-turnstone",
+    "name": "Ruddy Turnstone",
+    "scientificName": "Arenaria interpres",
+    "nameZh": "翻石鹬",
+    "color": "#d49d89"
+  },
+  {
+    "id": "sanderling",
+    "name": "Sanderling",
+    "scientificName": "Calidris alba",
+    "nameZh": "三趾滨鹬",
+    "color": "#c1dae9"
+  },
+  {
+    "id": "red-knot",
+    "name": "Red Knot",
+    "scientificName": "Calidris canutus",
+    "nameZh": "红腹滨鹬",
+    "color": "#d5a29a"
+  },
+  {
+    "id": "great-knot",
+    "name": "Great Knot",
+    "scientificName": "Calidris tenuirostris",
+    "nameZh": "大滨鹬",
+    "color": "#cab5ed"
+  },
+  {
+    "id": "curlew-sandpiper",
+    "name": "Curlew Sandpiper",
+    "scientificName": "Calidris ferruginea",
+    "nameZh": "弯嘴滨鹬",
+    "color": "#edaca6"
+  },
+  {
+    "id": "sharp-tailed-sandpiper",
+    "name": "Sharp-tailed Sandpiper",
+    "scientificName": "Calidris acuminata",
+    "nameZh": "尖尾滨鹬",
+    "color": "#d5c98b"
+  },
+  {
+    "id": "whimbrel",
+    "name": "Eurasian Whimbrel",
+    "scientificName": "Numenius phaeopus",
+    "nameZh": "中杓鹬",
+    "color": "#d1baa0"
+  },
+  {
+    "id": "common-tern",
+    "name": "Common Tern",
+    "scientificName": "Sterna hirundo",
+    "nameZh": "普通燕鸥",
+    "color": "#a9dbe2"
+  },
+  {
+    "id": "arctic-tern",
+    "name": "Arctic Tern",
+    "scientificName": "Sterna paradisaea",
+    "nameZh": "北极燕鸥",
+    "color": "#aabff0"
+  },
+  {
+    "id": "barn-swallow",
+    "name": "Barn Swallow",
+    "scientificName": "Hirundo rustica",
+    "nameZh": "家燕",
+    "color": "#b0b8ed"
+  }
+]

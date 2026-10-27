@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T12:21:06.819Z",
+  "generatedAt": "2026-10-27T03:41:15.819Z",
   "queries": [
     "https://api.gbif.org/v1/occurrence/search?taxonKey=2481681&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&year=2023%2C2025&decimalLongitude=90%2C180&decimalLatitude=-50%2C75&month=1&limit=50&license=CC0_1_0&license=CC_BY_4_0",
     "https://api.gbif.org/v1/occurrence/search?taxonKey=2481681&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&year=2023%2C2025&decimalLongitude=90%2C180&decimalLatitude=-50%2C75&month=2&limit=50&license=CC0_1_0&license=CC_BY_4_0",

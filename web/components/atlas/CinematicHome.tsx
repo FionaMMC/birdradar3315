@@ -57,17 +57,17 @@ export default function CinematicHome() {
         <div className="cinematic-nav"><SiteNav active="home" /></div>
         <div className="cinematic-home__intro">
           <h1 id="home-title">A world<br />in flight.</h1>
-          <p>Follow the journeys that connect us.</p>
+          <p>A darker night. A bird to discover.</p>
           <div className="cinematic-home__links">
-            <Link className="cinematic-primary-link" href="/track-migration">Explore migration <Arrow /></Link>
-            <Link className="cinematic-secondary-link" href="/track-migration?view=nearby">Birds near home</Link>
+            <Link className="cinematic-primary-link" href="/lights-out">Begin Lights Out <Arrow /></Link>
+            <Link className="cinematic-secondary-link" href="/track-migration">Explore the map</Link>
           </div>
         </div>
         <div className="cinematic-home__stamps" aria-label="Discover the stamp collection">
           <div className="cinematic-home__stamp-pair">
-            {[BIRD_STAMPS[1], BIRD_STAMPS[2]].map((stamp) => <div key={stamp.id} className="cinematic-home__stamp"><StampCard stamp={stamp} finish="holographic" showCaption={false} eager onSave={() => {}} /></div>)}
+            {[BIRD_STAMPS[1], BIRD_STAMPS[2]].map((stamp) => <div key={stamp.id} className="cinematic-home__stamp"><StampCard stamp={stamp} finish="holographic" showCaption={false} eager /></div>)}
           </div>
-          <Link href="/collection">Every journey leaves a mark. <Arrow /></Link>
+          <Link href="/collection">Small actions. Stories to keep. <Arrow /></Link>
         </div>
         <div className="cinematic-home__foot">
           <button className="cinematic-film-toggle" onClick={toggleFilm} type="button" disabled={videoError} aria-label={videoError ? "Background film unavailable; showing still image" : isPlaying ? "Pause background film" : "Play background film"}>
@@ -81,7 +81,7 @@ export default function CinematicHome() {
         <h2 id="journeys-title">No borders.<br />Just a way home.</h2>
         <div className="cinematic-home__story-copy">
           <p>Across oceans, coastlines and continents, birds follow journeys far bigger than the places we call home.</p>
-          <p>Explore historical tracking data and recorded sightings on a shared atlas. Follow a bird’s route, discover the places it returns to, and keep a small reminder of its journey.</p>
+          <p>Explore the atlas freely. After dark, take care of your lights to reveal a mystery bird, earn its stamp, and discover the life behind it. Each stamp remembers a night you took part.</p>
           <Link className="cinematic-primary-link" href="/track-migration">Open the atlas <Arrow /></Link>
           <Link className="cinematic-secondary-link" href="/lights-out">Make room for a darker night <Arrow /></Link>
         </div>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { sitePath } from "@/lib/site-path";
+import { useNightRewards } from "./useNightRewards";
 import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { type BirdProfile, birdCollectionHref, birdDataLabel, birdMapHref, safeMapReturnTo, withMapReturn } from "@/lib/birds";
@@ -25,7 +26,10 @@ function BirdDetailContent({ bird }: { bird: BirdProfile }) {
   const fromCollection = search.get("from") === "collection";
   const collection = useStampCollection();
   const stamp = BIRD_STAMPS.find((item) => item.id === bird.id);
-  const saved = collection.saved.has(bird.id);
+  const nights = useNightRewards();
+  const unlocked = nights.unlocked.has(bird.id);
+  const reward = nights.rewards.find((night) => night.species === bird.id);
+  const lightsOutHref = withMapReturn("/lights-out?from=species", returnTo);
   const film = birdFilm(bird.id);
   return (
     <main className="bird-detail">
@@ -40,17 +44,19 @@ function BirdDetailContent({ bird }: { bird: BirdProfile }) {
           <p className="bird-detail-summary">{bird.summary}</p>
           <div className="bird-detail-actions">
             <Link href={birdMapHref(bird, returnTo)}>{returnTo ? mapReturnLabel : bird.dataStatus === "none" ? "Explore nearby records" : bird.dataStatus === "tracking" ? "Follow the study on the map" : "View published observations"}<Arrow /></Link>
-            {stamp && <button type="button" aria-pressed={saved} onClick={() => collection.toggleSaved(bird.id)}>{saved ? "Saved to your collection" : "Save this bird"}<svg width="18" height="18" viewBox="0 0 20 20" stroke="currentColor" fill="none" aria-hidden="true">{saved ? <path d="m4 10 4 4 8-8" /> : <path d="M10 3v14M3 10h14" />}</svg></button>}
+            <Link href={unlocked ? birdCollectionHref(bird, returnTo) : lightsOutHref}>{unlocked ? "Your unlocked stamp" : "Earn stamps with Lights Out"}<Arrow /></Link>
           </div>
-          <span className="bird-detail-notice" role="status">{collection.notice}</span>
+          <span className="bird-detail-notice">{unlocked ? `Stamp unlocked · ${reward?.date}` : "Field notes are always open. Stamps are earned after dark."}</span>
           <a className="bird-detail-read" href="#field-notes">Meet the bird <Arrow /></a>
         </div>
       </section>
       <section className="bird-detail-keepsake-story" aria-labelledby="bird-keepsake-title">
-        <div><h2 id="bird-keepsake-title">A moment<br />to keep.</h2><p>A living bird, a distant journey, a small reminder to care. {stamp ? "Keep this bird in your collection and find your way back to its story." : "Follow the field notes and get to know the life behind the data."}</p><p className="bird-detail-film-credit">Film: {film.credit}.</p></div>
+        <div><h2 id="bird-keepsake-title">A night<br />to remember.</h2><p>{unlocked ? "You made room for a darker sky. This stamp keeps the memory of the night you took part in Lights Out." : "This bird’s story is open to everyone. Its stamp stays sealed until it becomes your surprise reward on a Lights Out night."}</p><p className="bird-detail-film-credit">Film: {film.credit}.</p></div>
         {stamp ? <div className="bird-detail-keepsake">
-          <StampCard stamp={stamp} finish={collection.finish} showCaption={false} onSave={collection.toggleSaved} onSelectSpecies={collection.toggleSaved} selectionLabel={`${saved ? "Remove" : "Save"} ${bird.name} ${saved ? "from" : "to"} your collection`} active={saved} eager />
-          <StampFinishes finish={collection.finish} onChange={collection.changeFinish} />
+          <StampCard stamp={stamp} finish={collection.finish} showCaption={false} unlocked={unlocked} rewardDate={reward?.date} detailHref={unlocked ? birdCollectionHref(bird, returnTo) : lightsOutHref} eager />
+          {unlocked && <StampFinishes finish={collection.finish} onChange={collection.changeFinish} />}
+          {!unlocked && <p className="bird-detail-stamp-state">Locked · revealed through Lights Out</p>}
+          {unlocked && bird.photo && bird.photoCredit && <p className="bird-stamp__photo-credit">Photo: <a href={bird.photoSource} target="_blank" rel="noreferrer">{bird.photoCredit}</a> · <a href={bird.photoLicenseUrl} target="_blank" rel="noreferrer">{bird.photoLicense}</a> · Cropped for display</p>}
           <Link href={birdCollectionHref(bird, returnTo)}>See it in the gallery <Arrow /></Link>
         </div> : <aside className="bird-detail-field-note"><p>{birdDataLabel(bird)}</p><h2>A life recorded<br />in the field.</h2><p>{bird.mapSummary}</p><span>A stamp for this species is not available yet.</span></aside>}
       </section>
@@ -70,7 +76,7 @@ function BirdDetailContent({ bird }: { bird: BirdProfile }) {
       </section>
       <section className="bird-detail-next" aria-labelledby="bird-next-title">
         <div><h2 id="bird-next-title">Keep the wonder.<br />Leave a darker sky.</h2><p>Learning about one bird can be the beginning of a wider habit. Lights Out helps you reduce unnecessary light at home, one evening at a time.</p><p className="bird-detail-next-note">This is a practical action for the shared night sky. It does not mean this species is above your home tonight.</p></div>
-        <div className="bird-detail-next-actions"><Link href={withMapReturn(`/lights-out?species=${bird.id}&from=species`, returnTo)}>Make a Lights Out plan<Arrow /></Link>{stamp && <Link href={birdCollectionHref(bird, returnTo)}>Back to this stamp<Arrow /></Link>}<Link href={returnTo || "/track-migration?view=nearby"}>{returnTo ? mapReturnLabel : "Explore near home"}<Arrow /></Link></div>
+        <div className="bird-detail-next-actions"><Link href={lightsOutHref}>Join tonight’s Lights Out<Arrow /></Link>{stamp && <Link href={birdCollectionHref(bird, returnTo)}>Back to this stamp<Arrow /></Link>}<Link href={returnTo || "/track-migration?view=nearby"}>{returnTo ? mapReturnLabel : "Explore near home"}<Arrow /></Link></div>
       </section>
     </main>
   );

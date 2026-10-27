@@ -1,0 +1,2693 @@
+{
+  "generatedAt": "2026-10-27T03:41:15.819Z",
+  "queries": [
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "lathams-snipe",
+      "taxonKey": 2481830,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481830&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-necked-stint",
+      "taxonKey": 2481746,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481746&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "painted-snipe",
+      "taxonKey": 4849640,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=4849640&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "pacific-golden-plover",
+      "taxonKey": 2480331,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480331&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "rainbow-bee-eater",
+      "taxonKey": 2475422,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2475422&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "black-faced-spoonbill",
+      "taxonKey": 2480805,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2480805&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "ruddy-turnstone",
+      "taxonKey": 2481776,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481776&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sanderling",
+      "taxonKey": 2481748,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481748&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "red-knot",
+      "taxonKey": 2481765,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481765&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "great-knot",
+      "taxonKey": 2481768,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481768&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "curlew-sandpiper",
+      "taxonKey": 2481741,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481741&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "sharp-tailed-sandpiper",
+      "taxonKey": 2481769,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481769&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "whimbrel",
+      "taxonKey": 2481784,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=2481784&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "common-tern",
+      "taxonKey": 9367409,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9367409&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "arctic-tern",
+      "taxonKey": 5229230,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=5229230&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 1,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 1,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=1&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 2,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 2,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=2&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 3,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 3,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=3&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 4,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 4,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=4&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 5,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 5,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=5&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 6,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 6,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=6&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 7,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 7,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=7&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 8,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 8,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=8&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 9,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 9,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=9&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 10,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 10,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=10&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 11,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 11,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=11&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 12,
+      "scope": "global",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0"
+    },
+    {
+      "speciesId": "barn-swallow",
+      "taxonKey": 9515886,
+      "month": 12,
+      "scope": "australia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxonKey=9515886&hasCoordinate=true&hasGeospatialIssue=false&occurrenceStatus=PRESENT&basisOfRecord=HUMAN_OBSERVATION&year=2024%2C2025&month=12&limit=6&license=CC0_1_0&license=CC_BY_4_0&country=AU"
+    }
+  ]
+}

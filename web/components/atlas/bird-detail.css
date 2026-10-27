@@ -88,3 +88,4 @@
   .bird-detail-field-note { padding-top: 0; max-width: none; }
 }
 @media (prefers-reduced-motion: reduce) { .bird-detail-keepsake .bird-stamp { transform: none; } }
+.bird-detail-stamp-state { color: #bfd0dd; font-size: 12px; line-height: 1.7; margin: 0; }

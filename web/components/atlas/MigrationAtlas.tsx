@@ -9,7 +9,7 @@ import { BIRDS, getBird } from "@/lib/birds";
 import { parseAtlasSelection, updateAtlasSelection, type AreaCenter } from "@/lib/atlas-selection";
 import SiteNav from "./SiteNav";
 import StampCard from "./StampCard";
-import { useStampCollection } from "./StampCollection";
+import { useNightRewards } from "./useNightRewards";
 import { useAtlasLocation } from "./useAtlasLocation";
 import { browserData } from "@/lib/browser-data";
 import type { MigrationMapLayer } from "./MigrationMap";
@@ -47,7 +47,7 @@ export default function MigrationAtlas() {
   const placeButton = useRef<HTMLButtonElement>(null);
   const placeInput = useRef<HTMLInputElement>(null);
   const lastHistoricalSpecies = useRef("osprey");
-  const collection = useStampCollection();
+  const nightRewards = useNightRewards();
 
   const requestedSpecies = params.get("species");
   const requestedProfile = getBird(requestedSpecies);
@@ -161,7 +161,7 @@ export default function MigrationAtlas() {
     return `rgb(${color.map(Math.round).join(",")}) ${index * 5}%`;
   }).join(", ")})`, [paletteId]);
   const moved = isNearby && mapCenter && location.area && (Math.abs(mapCenter.latitude - location.area.latitude) > .025 || Math.abs(mapCenter.longitude - location.area.longitude) > .025);
-  const stamp = profile?.image ? { id: profile.id, name: profile.name, scientificName: profile.scientificName, image: profile.id === "osprey" ? "/assets/atlas/atlas-osprey-stamp.png" : profile.image, color: profile.color } : null;
+  const stamp = profile ? { ...profile, image: profile.id === "osprey" ? "/assets/atlas/atlas-osprey-stamp.png" : profile.image } : null;
 
   return <main className={`migration-atlas${isNearby ? " migration-atlas--located" : ""}`}>
     <MigrationMap data={historicalData} layer={layer} opacity={opacity / 100} observationDenominator={historicalDenominator} focusKey={`${speciesId}-${isObservation ? "observations" : "telemetry"}`} nearby={isNearby ? { center: location.area, data: location.data, selectedSpecies: localSpeciesId, month, onSelectSpecies: chooseBird, onMove: setMapCenter } : undefined} />
@@ -201,14 +201,14 @@ export default function MigrationAtlas() {
         <span>{isNearby ? "Birds around here" : "Explore the birds"}</span>
         <button type="button" onClick={() => stepBird(1)} disabled={options.length < 2 || !ready} aria-label="Next bird"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="m10 5 7 7-7 7" /></svg></button>
       </div>
-      {stamp && <div className="migration-atlas__bird-art" key={stamp.id}><StampCard stamp={stamp} finish="holographic" eager showCaption={false} saved={collection.saved.has(stamp.id)} onSave={collection.toggleSaved} onSelectSpecies={() => profileHref && router.push(profileHref)} selectionLabel={`Meet ${stamp.name}`} /></div>}
+      {stamp && <div className="migration-atlas__bird-art" key={stamp.id}><StampCard stamp={stamp} finish="holographic" eager showCaption={false} unlocked={nightRewards.unlocked.has(stamp.id)} onSelectSpecies={() => profileHref && router.push(profileHref)} selectionLabel={`Meet ${stamp.name}`} /></div>}
       <div className="migration-atlas__bird-identity">
         <label className="migration-atlas__species"><span className="migration-atlas__sr-only">Choose a bird species</span><span className="migration-atlas__species-name" aria-hidden="true">{birdName}</span><select value={optionValue} onChange={(event) => chooseBird(event.target.value)} disabled={!ready}>{selectedIndex < 0 && <option value={optionValue}>{birdName}</option>}{options.map((bird) => <option key={bird.id} value={bird.id}>{bird.name}</option>)}</select><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="m4 7 6 6 6-6" /></svg></label>
-        {profile && <button className="migration-atlas__save" type="button" onClick={() => collection.toggleSaved(profile.id)} aria-label={`${collection.saved.has(profile.id) ? "Remove" : "Save"} ${profile.name} ${collection.saved.has(profile.id) ? "from" : "to"} your collection`} aria-pressed={collection.saved.has(profile.id)}><svg width="19" height="19" viewBox="0 0 24 24" fill={collection.saved.has(profile.id) ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.4" aria-hidden="true"><path d="M6.5 4.5h11v15L12 16l-5.5 3.5z" /></svg></button>}
+        {profile && <Link className="migration-atlas__save" href={nightRewards.unlocked.has(profile.id) ? `/collection?species=${profile.id}&from=map&returnTo=${mapReturn}` : `/lights-out?from=map&returnTo=${mapReturn}`} aria-label={nightRewards.unlocked.has(profile.id) ? `View ${profile.name} stamp earned through Lights Out` : "Join Lights Out to earn stamps"} title={nightRewards.unlocked.has(profile.id) ? "Stamp unlocked" : "Stamps are earned through Lights Out"}><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">{nightRewards.unlocked.has(profile.id) ? <path d="m5 12 4 4L19 6" /> : <><rect x="5.5" y="10" width="13" height="11" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3" /></>}</svg></Link>}
       </div>
       {scientificName && <p className="migration-atlas__latin">{scientificName}</p>}
       <p className="migration-atlas__bird-note">{isNearby ? localSpecies ? `${localSpecies.count} records in this sample. Latest: ${localSpecies.lastObserved.slice(0, 10)}.` : location.data ? `${location.data.species.length} recorded species. Choose a bird to follow its story.` : "Choose a recorded bird once the area loads." : isObservation ? "Independent sightings, shown as observation heat. These records do not establish flight paths." : "Individual journeys from a historical research sample."}</p>
-      <div className="migration-atlas__next">{profileHref ? <Link href={profileHref}>Meet this bird <Arrow /></Link> : localSpecies ? <a href={localSpecies.sourceUrl} target="_blank" rel="noopener noreferrer">GBIF bird profile <Arrow /></a> : <Link href="/species-library">Meet the birds <Arrow /></Link>}{profile && <Link href={`/collection?species=${profile.id}&from=map&returnTo=${mapReturn}`}>See in collection <Arrow /></Link>}</div>
+      <div className="migration-atlas__next">{profileHref ? <Link href={profileHref}>Meet this bird <Arrow /></Link> : localSpecies ? <a href={localSpecies.sourceUrl} target="_blank" rel="noopener noreferrer">GBIF bird profile <Arrow /></a> : <Link href="/species-library">Meet the birds <Arrow /></Link>}{profile && <Link href={`/collection?species=${profile.id}&from=map&returnTo=${mapReturn}`}>{nightRewards.unlocked.has(profile.id) ? "Your unlocked stamp" : "View locked stamp"} <Arrow /></Link>}</div>
     </aside>
 
     {moved && !locatorOpen && <button className="migration-atlas__search-area" type="button" onClick={() => mapCenter && location.chooseArea({ ...mapCenter, name: "Map area" })}>Search this area <LocateIcon /></button>}

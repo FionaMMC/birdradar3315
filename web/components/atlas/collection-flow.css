@@ -53,3 +53,23 @@
   .collection-fan__item--centre .bird-stamp { animation: none; }
   .collection-feature-save svg,.collection-library-filters button::after { transition: none; }
 }
+
+.collection-unlock-intro { margin: 0; color: #c6d4df; font-size: 14px; line-height: 1.9; }
+.collection-earned-note { color: #d9e7bf; font-size: 13px; line-height: 1.6; margin: 12px 0 6px; }
+.collection-feature-save svg { width: 17px; height: 17px; flex-shrink: 0; }
+.collection-library-item-links { display: flex; flex-wrap: wrap; gap: 0 18px; margin-top: 8px; }
+.collection-library-item-links .collection-field-link { gap: 8px; }
+.collection-bookmarks { padding: 30px 6% 85px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 11%; }
+.collection-bookmarks h2 { font-size: clamp(28px,3vw,42px); font-weight: 450; line-height: 1.1; letter-spacing: -.025em; margin: 0 0 20px; }
+.collection-bookmarks p { color: #b9ccdc; font-size: 14px; line-height: 1.8; max-width: 52ch; margin: 0; }
+.collection-bookmark-links { display: flex; flex-direction: column; align-items: flex-start; }
+.collection-bookmark-links a { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: #d2e0e9; font-size: 14px; }
+.collection-bookmark-links svg { width: 15px; height: 15px; }
+@media (max-width: 760px) {
+  .collection-bookmarks { grid-template-columns: 1fr; gap: 20px; padding-bottom: 55px; }
+  .collection-library-filters { gap: 25px; }
+  .collection-library-item-links { gap: 0 15px; }
+  .collection-library-item-links .collection-field-link { font-size: 11px; }
+  .collection-feature-save { font-size: 13px !important; }
+  .collection-earned-note { font-size: 12px; }
+}

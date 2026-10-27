@@ -10,7 +10,7 @@
 .lights-hero { min-height:850px; min-height:max(850px,100svh); position:relative; isolation:isolate; overflow:hidden; display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:8%; padding:150px 7% 125px; }
 .lights-landscape,.lights-landscape-film,.lights-night-mask,.lights-ambient { position:absolute; inset:0; width:100%; height:100%; z-index:-3; }
 .lights-landscape,.lights-night-mask,.lights-ambient { pointer-events:none; }
-.lights-landscape-film { z-index:auto; background:none; pointer-events:none; }
+.lights-hero > .lights-landscape-film { position:absolute; inset:0; width:100%; height:100%; z-index:auto; background:transparent; pointer-events:none; }
 .lights-landscape-film :is(.living-film__video,.living-film__image) { z-index:-3; filter:brightness(.73) saturate(.8); }
 .lights-landscape-film .living-film__controls { left:7%; right:7%; bottom:85px; pointer-events:auto; }
 .lights-landscape { object-fit:cover; object-position:center; filter:brightness(.6) saturate(.75); transition:filter 800ms cubic-bezier(.16,1,.3,1); }
@@ -98,9 +98,45 @@
 .lights-journal footer p { font-size:12px; line-height:1.8; color:#9eb9c9; }
 .lights-journal footer a { display:flex; align-items:center; gap:20px; min-height:44px; text-decoration:none; font-size:15px; }
 .lights-sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.lights-sealed-night { display:flex; align-items:center; gap:18px; color:#b8d1db; margin-bottom:22px; }
+.lights-sealed-night > span:first-child { font-size:34px; font-weight:350; width:62px; height:62px; display:grid; place-items:center; border-radius:50%; background:radial-gradient(circle at 30% 25%,#bfd9f12e,#9d8bca16 65%,transparent); }
+.lights-sealed-night > span:last-child { font-size:13px; }
+.night-area { margin-top:24px; }
+.night-area__toggle { display:flex; width:100%; align-items:center; justify-content:space-between; gap:18px; min-height:44px; border:0; padding:8px 0; background:none; text-align:left; font-size:14px!important; color:#d9e8eb!important; }
+.night-area__toggle > span { font-size:22px; }
+.night-area__options { padding:12px 0 6px; }
+.night-area form { display:flex; gap:10px; }
+.night-area input { width:100%; min-width:0; border:0; border-radius:5px; padding:12px; background:#d5e3e310; color:#f3f2eb; font-size:15px; }
+.night-area input::placeholder { color:#b9c9d4; }
+.night-area form button { flex-shrink:0; padding:8px 12px; background:#d5e3e320; border:0; border-radius:5px; font-size:14px; }
+.night-area__shortcuts { display:flex; flex-wrap:wrap; column-gap:18px; }
+.night-area__shortcuts button { min-height:44px; padding:6px 0; border:0; background:none; text-decoration:underline; text-underline-offset:5px; font-size:12px; }
+.night-area ul { padding:0; margin:8px 0; list-style:none; max-height:220px; overflow-y:auto; }
+.night-area li button { width:100%; border:0; background:none; text-align:left; padding:12px 3px; font-size:14px; }
+.night-area li button:hover { background:#d5e3e310; }
+.night-area li span { display:block; margin-top:5px; font-size:12px; color:#b7c8d5; }
+.night-area__status,.night-area__privacy { font-size:12px!important; line-height:1.65!important; color:#b4cad5!important; margin-top:10px!important; }
+.lights-flow-body > .lights-discovery-note { font-size:12px; line-height:1.75; color:#a7c2d1; margin-top:20px; }
+.lights-completion .lights-recorded-date { margin:0 0 16px; font-size:13px; }
+.lights-completion > .lights-bird-latin { margin-top:8px; font-size:14px; font-style:italic; color:#adc4d1; }
+.lights-earned-stamp { width:min(190px,60%); margin:28px auto 8px; perspective:1000px; }
+.lights-earned-stamp .bird-stamp { margin:0; }
+.lights-earned-stamp .bird-stamp__reward { display:none; }
+.lights-completion > .lights-reward-caption { text-align:center; color:#d1dedb; font-size:12px; margin:15px 0 20px; }
+.lights-flow-body > .lights-photo-credit { text-align:center; font-size:11px; line-height:1.7; color:#a9bfcb; margin:0 0 18px; }
+.lights-flow-body h2 { scroll-margin-top:28px; }
+.lights-experience--recorded .lights-hero { padding-top:125px; }
+.lights-mobile-start { display:none; }
+@media(prefers-reduced-motion:no-preference) {
+ .lights-flow-body { animation:night-arrives 420ms cubic-bezier(.16,1,.3,1) both; }
+ .lights-earned-stamp { animation:night-keepsake 800ms cubic-bezier(.16,1,.3,1) both; }
+ @keyframes night-arrives { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+ @keyframes night-keepsake { from { opacity:0; transform:translateY(22px) rotate(-5deg); } to { opacity:1; transform:translateY(0) rotate(0); } }
+}
 @media(min-width:1500px) { .lights-hero { gap:12%; } .lights-journey { justify-self:start; } }
 @media(max-width:1050px) and (min-width:761px) { .lights-hero { padding-left:5%; padding-right:5%; gap:6%; } .lights-intro h1 { font-size:65px; } .lights-intro > p { font-size:17px; } .lights-steps { gap:5px; } .lights-steps li { font-size:11px; gap:4px; } }
 @media(max-width:760px) {
+ .lights-mobile-start { display:flex; margin-top:24px; }
  .lights-hero { min-height:100svh; grid-template-columns:1fr; gap:42px; padding:110px 6% 105px; align-items:start; }
  .lights-landscape { object-position:42% center; }
  .lights-night-mask { background:linear-gradient(0deg,#08131c 0%,#08131cb8 35%,#06121b7a),linear-gradient(90deg,#06121b61,transparent); }

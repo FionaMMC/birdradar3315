@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-25T12:54:20.709491+00:00",
+  "generatedAt": "2026-10-27T03:52:48.009785+00:00",
   "title": "Design System: BirdRadar",
   "extensions": {
     "colorMeta": {
@@ -123,6 +123,18 @@
           "oklch(95% 0.035 235)"
         ],
         "note": "Derived tonal preview; only the DESIGN.md primitive is a shipping colour."
+      },
+      "stamp-paper": {
+        "displayName": "Warm stamp paper",
+        "role": "neutral"
+      },
+      "stamp-ink": {
+        "displayName": "Printed stamp ink",
+        "role": "neutral"
+      },
+      "earned": {
+        "displayName": "Earned night mark",
+        "role": "secondary"
       }
     },
     "typographyMeta": {
@@ -190,7 +202,7 @@
       {
         "name": "stamp-return",
         "value": "450ms",
-        "purpose": "Returns stamp pose and shadow; pointer hover uses 90ms."
+        "purpose": "Unlocked stamp pose and shadow return; pointer hover uses 90ms. Locked paper has no tilt."
       },
       {
         "name": "density-month",
@@ -225,7 +237,7 @@
       {
         "name": "night-flight",
         "value": "8 seconds",
-        "purpose": "Optional, non-looping flight sequence after the night is already recorded; pause, Skip, Escape and replay remain available."
+        "purpose": "Non-looping real flight after the action is recorded, before species reveal. Pause, Reveal tonight’s bird, Escape and replay remain available; reduced motion waits for Play."
       },
       {
         "name": "atlas-location",
@@ -241,6 +253,16 @@
         "name": "atlas-bird-arrive",
         "value": "360ms cubic-bezier(.16,1,.3,1)",
         "purpose": "Available stamp arrival in the common bird chooser; removed with reduced motion."
+      },
+      {
+        "name": "night-stage-arrive",
+        "value": "420ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Mystery, action and reveal stage entry; only with no reduced-motion preference."
+      },
+      {
+        "name": "night-earned-stamp",
+        "value": "800ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Earned stamp enters from 22px below and -5deg, only with no reduced-motion preference."
       }
     ],
     "breakpoints": [
@@ -426,10 +448,10 @@
     },
     "accessibility": {
       "focus": "2px pale outline with 5–6px offset; native select has focus-within wrapper.",
-      "reducedMotion": "Home starts on a still poster; no stamp tilt, density/observation crossfade or atlas-panel, atlas-bird or collection arrival animation. LivingBirdFilm requires manual Play, including post-action flight, with an 80ms video reveal. Night ambient fade shortens to 80ms.",
+      "reducedMotion": "Home starts on a still poster; no stamp tilt, density/observation crossfade or atlas-panel, atlas-bird or collection arrival animation. LivingBirdFilm requires manual Play, including post-action flight, with an 80ms video reveal. Night ambient fade shortens to 80ms. Night stage and earned-stamp arrival animations are omitted.",
       "touch": "No pointer tilt; touch hint replaces movement hint.",
-      "journey": "Native checkbox actions and separate after-dark confirmation; focus moves to the new Lights Out stage heading. Mobile navigation closes on Escape and returns focus to its trigger.",
-      "film": "Muted inline playback, persistent Play/Pause, still fallback and failure copy. Hidden or offscreen films pause. The post-action native dialog focuses Skip, supports Escape and leaves the already-recorded night intact.",
+      "journey": "Action checkboxes and a separate after-dark confirmation gate the reward. Starting or advancing focuses the next heading; mobile scrolls it into view. Begin tonight is also present in the first mobile introduction.",
+      "film": "Muted inline footage with Play/Pause and poster fallback, pausing offscreen or when hidden. The post-action modal focuses Reveal tonight’s bird, supports Escape and keeps the bird concealed until reveal; skipping does not undo the recorded action.",
       "atlas": "A shared native species select with previous/next buttons and a native 1–12 month range work in both scopes. Place search is non-modal; Escape closes it and restores trigger focus. Geolocation is requested only by activating Near home."
     },
     "scope": {
@@ -444,22 +466,26 @@
         "web/components/atlas/observation-heat.ts",
         "web/components/atlas/ObservationHeatLayer.ts",
         "web/lib/atlas-selection.ts",
-        "web/components/atlas/useAtlasLocation.ts"
+        "web/components/atlas/useAtlasLocation.ts",
+        "web/lib/night-rewards.ts",
+        "web/lib/night-discovery.ts",
+        "web/components/atlas/useNightRewards.ts",
+        "web/components/atlas/NightAreaPicker.tsx"
       ],
       "surfaces": [
         "Home",
         "Unified historical/nearby atlas",
-        "Ten bird profiles",
+        "Twenty bird profiles",
         "Collection",
         "Lights Out"
       ],
-      "legacy": "Six original quiz pages are archived, unrouted, under web/legacy/species/. Previously completed quiz marks remain recognized."
+      "legacy": "Six original quiz pages remain archived and unrouted. Old bookmarks and journal entries are preserved without grants; quiz flags do not unlock the earned collection."
     },
     "journeys": {
       "mapContext": "One month/layer URL model supports both scopes and validated local returnTo links through profiles, gallery and Lights Out. Legacy nearbyMonth/nearbyLayer are normalized. A location-less view=nearby link opens place search without requesting geolocation.",
       "nearby": "Near home explicitly requests approximate geolocation and moves the existing map. Find a place / Change place opens a non-modal city search panel. The shared bird chooser, month range and opacity filter the loaded 25km sample without refitting or requerying. Back to migration restores the preceding historical bird and retains month.",
-      "collection": "Seven illustrated stamps, four cosmetic finishes, All / Saved filters and device-local bookmarks; ten bird profiles with photographic hero footage and a separate keepsake section.",
-      "lightsOut": "Understand, Take action, Remember. City-bird film accompanies action selection. After confirming an action was completed after dark, record one entry per local date immediately, then offer eight seconds of archival flight. Pause, Skip, Escape and replay are available; reduced motion starts on the poster. Darkened completion and journal support undo/removal."
+      "collection": "Twenty earnable stamps: seven illustrated and thirteen licensed photographic. All / Unlocked / Locked filters, dated earned states and a keyboard carousel. Locked paper stays sealed; unlocked stamps expose four cosmetic finishes. Free field notes and map links remain available, with earlier favourites as separate bookmarks.",
+      "lightsOut": "Mystery bird, explicit after-dark action, real eight-second flight, species reveal, earned stamp, bird information. Identity remains concealed during the ritual until action and film/reveal. The record precedes playback; Reveal tonight’s bird, Escape, pause and replay remain available. Mobile Begin tonight starts from the first introduction."
     },
     "observationHeat": {
       "sources": [
@@ -482,13 +508,40 @@
       "component": "web/components/atlas/LivingBirdFilm.tsx",
       "identity": "Exact species is not established by original filenames. Shared or unverified archival footage is labelled independently from profile/data identity.",
       "profileLayout": "Desktop directional reading mask leaves the subject visible; mobile uses a separate 390px film strip after the introduction. Stamps follow below.",
-      "provenance": "web/docs/BIRD_FILMS.md"
+      "provenance": "web/docs/BIRD_FILMS.md",
+      "lightsOutLayout": "The scoped .lights-hero > .lights-landscape-film rule holds the film as an absolute background independent of shared film CSS load order."
     },
     "mapControls": {
       "bird": "One native species selector, previous/next controls, available stamp, save/profile/collection links. Nearby options come from the chosen area’s source records.",
       "month": "One native January–December range with twelve labels, All months and play/pause, shared on desktop/mobile and between scopes.",
       "location": "Place selection changes the existing map centre and observation sample. Nearby species, month and opacity retain viewport and loaded sample.",
       "permission": "Near home calls geolocation only after explicit activation; place search and remembered-area selection do not request it."
+    },
+    "nightRewards": {
+      "sources": [
+        "web/lib/night-rewards.ts",
+        "web/components/atlas/useNightRewards.ts"
+      ],
+      "assignment": "One earliest immutable assignment per retained local calendar date, preferring eligible species not yet earned. Assignment is prepared only when the ritual begins.",
+      "earning": "At least one real action and explicit after-dark confirmation; one earned record per date, shared across ritual/gallery/profile/map. A stale pre-midnight confirmation cannot earn the next date.",
+      "undo": "Removing a night revokes its reward, while retaining the assignment to prevent reroll. A species stays unlocked if another retained date earned it.",
+      "storage": "Browser-local ledger with deterministic cross-tab merge and shared visit-only fallback. Old bookmarks, quiz flags and journal entries never grant rewards. Clearing site data removes local history.",
+      "discovery": "Optional NightAreaPicker uses exact catalog scientific names present in actual nearby records from the same calendar month. Missing matches or unavailable area data use a labelled global discovery. Evidence inspires the reward; it is never an overhead forecast."
+    },
+    "photography": {
+      "count": 13,
+      "source": "web/docs/PHOTO_PROVENANCE.md",
+      "manifest": "web/public/data/bird-photo-provenance.json",
+      "use": "Named-species Commons photographs in perforated paper stamps, with visible creator, original source, CC license and crop disclosure. Separate from seven illustrations and archival film identity."
+    },
+    "dataCoverage": {
+      "catalogSpecies": 20,
+      "trackedIndividuals": 157,
+      "dailyPositions": 23982,
+      "observationRecords": 2169,
+      "originalGodwitRecords": 599,
+      "addedObservationRecords": 1570,
+      "meaning": "Three telemetry species and seventeen independent-observation species; small monthly global/Australian samples are not abundance estimates or forecasts."
     }
   },
   "components": [
@@ -501,11 +554,11 @@
       "css": ".ds-primary-link{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);color:#f7f8fb;background:transparent;display:inline-flex;align-items:center;gap:14px;font-size:clamp(24px,2.3vw,36px);line-height:1.4;letter-spacing:-.025em;text-decoration:none}.ds-primary-link svg{width:31px;height:31px;transition:transform 220ms cubic-bezier(.16,1,.3,1)}.ds-primary-link:hover svg{transform:translate(3px,-3px)}.ds-primary-link:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-primary-link svg{transition:none}.ds-primary-link:hover svg{transform:none}}"
     },
     {
-      "name": "Secondary text link",
-      "kind": "button",
-      "description": "Subordinate cinematic action in muted blue-grey.",
-      "html": "<a class=\"ds-secondary-link\" href=\"/species-library\">Meet the birds</a>",
-      "css": ".ds-secondary-link{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);display:inline-flex;align-items:center;gap:12px;color:#bccddd;font-size:clamp(18px,1.7vw,24px);line-height:1.5;text-decoration:none}.ds-secondary-link:hover{color:#fff}.ds-secondary-link:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}"
+      "name": "Sealed stamp",
+      "kind": "card",
+      "description": "Locked paper conceals stamp artwork until an earned Lights Out night; bird field notes remain freely browsable.",
+      "html": "<a class=\"ds-sealed\" href=\"/lights-out\" aria-label=\"Join Lights Out to earn stamps\"><span class=\"ds-sealed-brand\">BIRDRADAR</span><span class=\"ds-sealed-message\"><svg width=\"28\" height=\"32\" viewBox=\"0 0 28 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" aria-hidden=\"true\"><rect x=\"5\" y=\"13\" width=\"18\" height=\"15\" rx=\"2\"/><path d=\"M9 13V8a5 5 0 0 1 10 0v5M14 19v4\"/></svg><strong>A night<br/>still to come.</strong><small>LIGHTS OUT COLLECTION</small></span><span class=\"ds-sealed-footer\">A small act. A story to keep.</span></a>",
+      "css": ".ds-sealed{font-family:var(--font-ui,\"Geom Variable\",\"Helvetica Neue\",sans-serif);display:flex;flex-direction:column;width:220px;aspect-ratio:2/3;padding:22px 20px;background:linear-gradient(145deg,#354b60,#243d50 43%,#172d40);color:#d7e1e7;text-align:center;text-decoration:none;box-shadow:inset 0 1px 0 #b9ccd13d;mask:linear-gradient(#000 0 0) center/calc(100% - 12px) calc(100% - 12px) no-repeat,radial-gradient(circle at 6px 0,transparent 4px,#000 4.5px) 0 0/12px 6px repeat-x,radial-gradient(circle at 6px 6px,transparent 4px,#000 4.5px) 0 100%/12px 6px repeat-x,radial-gradient(circle at 0 6px,transparent 4px,#000 4.5px) 0 0/6px 12px repeat-y,radial-gradient(circle at 6px 6px,transparent 4px,#000 4.5px) 100% 0/6px 12px repeat-y}.ds-sealed-brand{font-size:11px;letter-spacing:.12em;color:#b9cbd6}.ds-sealed-message{display:flex;flex-direction:column;align-items:center;gap:18px;margin:auto 0}.ds-sealed-message strong{font-size:28px;font-weight:450;letter-spacing:-.025em;line-height:1.12}.ds-sealed-message small{font-size:9px;letter-spacing:.1em;color:#b8cbd7}.ds-sealed-footer{font-size:10px;color:#c1d0db}.ds-sealed:hover{color:#fff}.ds-sealed:focus-visible{outline:2px solid #d3e5fa;outline-offset:-12px}"
     },
     {
       "name": "Site navigation",
@@ -518,7 +571,7 @@
       "name": "Finish options",
       "kind": "chip",
       "refersTo": "finish-tab-active",
-      "description": "Borderless finish choices; weight and a dot identify selection.",
+      "description": "Cosmetic choices for an unlocked stamp; selecting a finish does not earn another reward.",
       "html": "<div class=\"ds-finishes\" role=\"group\" aria-label=\"Stamp finish\"><button aria-pressed=\"false\">Original</button><button aria-pressed=\"false\">Foil</button><button aria-pressed=\"true\">Holo</button><button aria-pressed=\"false\">Polychrome</button></div>",
       "css": ".ds-finishes{display:flex;gap:28px;flex-wrap:wrap}.ds-finishes button{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);position:relative;display:inline-flex;align-items:center;min-height:44px;padding:0 0 9px;border:0;background:none;color:#c2cbd5;font-size:15px;line-height:1.3;cursor:pointer;transition:color 180ms}.ds-finishes button:hover,.ds-finishes button[aria-pressed=true]{color:#fff}.ds-finishes button[aria-pressed=true]{font-weight:600}.ds-finishes button[aria-pressed=true]::after{content:\"\";position:absolute;bottom:0;left:calc(50% - 2.5px);width:5px;height:5px;border-radius:50%;background:#f4f4f7}.ds-finishes button:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}"
     },
@@ -540,7 +593,7 @@
     {
       "name": "Holographic stamp",
       "kind": "card",
-      "description": "Actual transparent stamp art and masked optical layers; static light position in this preview, pointer tracking in StampCard.tsx. Asset URLs resolve in the BirdRadar app.",
+      "description": "An unlocked illustrated reward with intact alpha-masked art and optical layers; only earned stamps expose these finishes and pointer tilt.",
       "html": "<article class=\"ds-stamp\"><a class=\"ds-stamp-art\" href=\"/species/osprey\" aria-label=\"Read about Osprey\"><img src=\"/assets/atlas/osprey-stamp.png\" alt=\"Osprey, illustrated postage stamp\"/><span class=\"ds-stamp-foil\" aria-hidden=\"true\"></span><span class=\"ds-stamp-glare\" aria-hidden=\"true\"></span></a><a class=\"ds-stamp-name\" href=\"/species/osprey\">Osprey</a><span class=\"ds-stamp-latin\">Pandion haliaetus</span></article>",
       "css": ".ds-stamp{font-family:var(--font-ui,'Geom Variable','Helvetica Neue',sans-serif);width:220px;max-width:100%;color:#edf0f4}.ds-stamp-art{display:block;position:relative;isolation:isolate;width:100%;aspect-ratio:2/3;filter:drop-shadow(0 14px 14px #03080b6b);transition:filter 450ms cubic-bezier(.16,1,.3,1)}.ds-stamp-art:hover{filter:drop-shadow(0 20px 18px #03080b8c)}.ds-stamp-art img{display:block;width:100%;height:100%;object-fit:contain}.ds-stamp-foil,.ds-stamp-glare{position:absolute;inset:0;pointer-events:none;mask:url(\"/assets/atlas/osprey-stamp.png\") center/contain no-repeat;-webkit-mask:url(\"/assets/atlas/osprey-stamp.png\") center/contain no-repeat}.ds-stamp-foil{opacity:.85;background:radial-gradient(ellipse at 38% 30%,#d3f9ffc7 0%,#9ba9f989 19%,transparent 56%),linear-gradient(125deg,#7bd6ed 7%,#d3c4ff 23%,#e8b1e8 38%,#92cceb 52%,#b2e0be 68%,#e5d9ad 80%,#b8c4ef 93%);background-size:150% 160%;background-position:38% 30%;mix-blend-mode:soft-light}.ds-stamp-glare{opacity:.18;background:radial-gradient(ellipse at 38% 30%,#fff8e7a8 0%,#d5eef22e 24%,transparent 63%);mix-blend-mode:screen;transition:opacity 250ms}.ds-stamp-art:hover .ds-stamp-glare,.ds-stamp-art:focus-visible .ds-stamp-glare{opacity:.66}.ds-stamp-name{display:block;margin-top:10px;font-size:14px;line-height:1.45;font-weight:500;color:inherit;text-decoration:none}.ds-stamp-name:hover{text-decoration:underline;color:#fff}.ds-stamp-latin{display:block;margin-top:3px;font-size:12px;line-height:1.4;color:#b9c6d2}.ds-stamp a:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-stamp-art,.ds-stamp-glare{transition:none}}"
     },
@@ -562,19 +615,19 @@
       "name": "Night action",
       "kind": "button",
       "refersTo": "lights-primary",
-      "description": "Pale progression action for the night journey; actual recording stays disabled until a physical action and after-dark confirmation are selected.",
-      "html": "<button class=\"ds-night-primary\">Choose tonight’s actions<svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"M4 12h16m-7-7 7 7-7 7\"/></svg></button>",
+      "description": "The mystery stage begins the ritual; My lights are down stays disabled until at least one action and explicit after-dark confirmation are selected.",
+      "html": "<button class=\"ds-night-primary\">Begin tonight<svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"M4 12h16m-7-7 7 7-7 7\"/></svg></button>",
       "css": ".ds-night-primary{font-family:var(--font-ui,\"Geom Variable\",\"Helvetica Neue\",sans-serif);display:flex;justify-content:space-between;align-items:center;gap:25px;width:100%;min-height:58px;color:#14232c;background:#e4eae8;border:0;border-radius:8px;padding:14px 21px;font-size:16px;font-weight:500;cursor:pointer;transition:background-color 180ms,box-shadow 180ms}.ds-night-primary:hover:not(:disabled){background:#fffdf5;box-shadow:0 9px 24px #01081035}.ds-night-primary:disabled{color:#bdcbd4;background:#a3b7c22a;cursor:default}.ds-night-primary:focus-visible{outline:2px solid #c5e5ef;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-night-primary{transition:none}}"
     }
   ],
   "narrative": {
     "northStar": "A world in flight",
-    "overview": "BirdRadar places oversized, closely set sans-serif type and quiet controls directly over wildlife film, dark landscape imagery and satellite geography. Soft directional masks create reading space; open composition and tonal contrast do most of the grouping. Rich colour belongs to measured geographic fields and illustrated postage stamps.\n\nThe stamps provide the tactile counterpart: intact bird artwork, visible paper perforations and separate optical finishes. One continuous map presents historical tracks and nearby observations, deriving each field’s shape and coverage from source records. Bird profiles connect those records to keepsakes; Lights Out turns that interest into a chosen action at home, followed by a quieter, darker landscape.",
+    "overview": "BirdRadar places oversized, closely set sans-serif type and quiet controls directly over wildlife film, dark landscape imagery and satellite geography. Soft directional masks create reading space; open composition and tonal contrast do most of the grouping. Rich colour belongs to measured geographic fields and illustrated postage stamps.\n\nThe nightly ritual gives the stamps their meaning: an unnamed bird, an explicit after-dark action, real birds in flight, then a species reveal and its earned keepsake. Intact bird illustrations and licensed photographs sit within perforated paper, with optical finishes reserved for unlocked stamps. One continuous map and every profile remain open for independent discovery, with geographic shape and coverage derived from source records.",
     "keyCharacteristics": [
       "Full-bleed imagery and geography with dissolving dark masks.",
       "Large Geom headings; compact, unboxed navigation and controls.",
-      "Milky species density fields and transparent, perforated foil stamps.",
-      "Visible data context and sources, device-local keepsakes and night journals, and reduced-motion alternatives."
+      "Milky data fields, sealed paper stamps and tactile foil on earned keepsakes.",
+      "A mystery-to-reveal ritual, device-local earned stamps and action journals, visible sources and reduced-motion alternatives."
     ],
     "rules": [
       {
@@ -584,7 +637,7 @@
       },
       {
         "name": "The Material Boundary Rule",
-        "body": "Keep foil and diffraction inside the stamp's alpha mask. Navigation and ordinary controls remain quiet and matte.",
+        "body": "Keep foil and diffraction within an unlocked stamp’s illustration alpha mask or perforated paper silhouette. Sealed stamps, navigation and ordinary controls stay quiet and matte.",
         "section": "elevation"
       }
     ],
@@ -592,19 +645,21 @@
       "Do preserve the locally bundled Geom face, oversized headings and generous open space.",
       "Do keep terrain, geographic labels, legends and attribution legible beneath and around the density field.",
       "Do derive visible coverage, dates and sample counts from the selected real records.",
-      "Do preserve transparent stamp edges and keep bird identity and printed artwork readable through each finish.",
+      "Do preserve perforated stamp edges and keep revealed identity, photography and printed artwork readable through each unlocked finish.",
       "Do retain visible focus, native keyboard controls, pause controls and reduced-motion behavior.",
       "Do keep map context intact across the bird, collection and night-action journey.",
-      "Do make location requests explicit and separate saved keepsakes from self-reported night actions.",
+      "Do preserve the same map, bird chooser and month control when moving between historical journeys and nearby observations.",
       "Do keep living footage visible, its identity limits legible, and flight playback optional after recording.",
-      "Do preserve the same map, bird chooser and month control when moving between historical journeys and nearby observations."
+      "Do keep the nightly bird concealed until action and film/reveal, and connect each earned stamp to its recorded night.",
+      "Do make location requests explicit and label local seasonal inspiration separately from global discovery.",
+      "Do preserve old bookmarks and journal entries without inventing rewards."
     ],
     "donts": [
       "Don't replace the cinematic world with boxed dashboard panels or pervasive hard dividers.",
       "Don't turn UI headings into serif type; fine print embedded in stamp artwork is a separate material.",
       "Don't label historical samples live, join independent observations into routes, or read brightness as abundance.",
       "Don't invent routes or flowing particles to match a mockup, or crossfade data across a changed geographic frame.",
-      "Don't present a cosmetic finish or saved bookmark as a quiz award, account sync or permanent ownership.",
+      "Don't let a bookmark, old quiz flag, finish change or film replay unlock a stamp or reroll the nightly bird.",
       "Don't interpret a Lights Out journal entry as sensor evidence, a bird-presence forecast or a measured conservation outcome."
     ]
   }

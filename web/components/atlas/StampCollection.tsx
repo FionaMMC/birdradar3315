@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useId, useState } from "react";
+import Link from "next/link";
+import { useNightRewards } from "./useNightRewards";
 import StampCard, { type BirdStamp, type StampFinish } from "./StampCard";
 import { BIRDS } from "@/lib/birds";
 import "./stamps.css";
 
-export const BIRD_STAMPS: BirdStamp[] = BIRDS.filter((bird): bird is typeof bird & { image: string } => Boolean(bird.image));
+export const BIRD_STAMPS: BirdStamp[] = BIRDS;
 
 const STORAGE_KEY = "birdradar:saved-stamps:v1";
 const FINISH_KEY = "birdradar:stamp-finish:v1";
@@ -72,7 +74,7 @@ export function useStampCollection() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify([...next]));
       setStorageAvailable(true);
-      setNotice(`${name} ${removing ? "removed from" : "saved to"} your collection.`);
+      setNotice(`${name} ${removing ? "removed from" : "saved to"} your bookmarks.`);
       window.dispatchEvent(new Event(SAVED_EVENT));
     } catch {
       setStorageAvailable(false);
@@ -105,22 +107,22 @@ interface StampCollectionProps {
 export default function StampCollection({ activeSpecies, onSelectSpecies, compact = false }: StampCollectionProps) {
   const titleId = useId();
   const collection = useStampCollection();
+  const nights = useNightRewards();
   return (
     <section className={`stamp-collection${compact ? " stamp-collection--compact" : ""}`} aria-labelledby={titleId}>
       <header className="stamp-collection__header">
-        <div><h2 id={titleId}>Small wonders.</h2><p>A collection of journeys.</p></div>
-        <span className="stamp-collection__count"><strong>{collection.saved.size}</strong><span>/ {BIRD_STAMPS.length} saved</span></span>
+        <div><h2 id={titleId}>Nights worth keeping.</h2><p>Stamps earned through Lights Out.</p></div>
+        <span className="stamp-collection__count"><strong>{nights.unlocked.size}</strong><span>/ {BIRD_STAMPS.length} unlocked</span></span>
       </header>
-      <StampFinishes finish={collection.finish} onChange={collection.changeFinish} />
+      {nights.unlocked.size > 0 && <StampFinishes finish={collection.finish} onChange={collection.changeFinish} />}
       <div className="stamp-collection__grid">
-        {BIRD_STAMPS.map((stamp) => <StampCard key={stamp.id} stamp={stamp} finish={collection.finish} active={activeSpecies === stamp.id} saved={collection.saved.has(stamp.id)} quizCompleted={collection.quizCompleted.has(stamp.id)} onSave={collection.toggleSaved} onSelectSpecies={onSelectSpecies} />)}
+        {BIRD_STAMPS.map((stamp) => <StampCard key={stamp.id} stamp={stamp} finish={collection.finish} active={activeSpecies === stamp.id} unlocked={nights.unlocked.has(stamp.id)} rewardDate={nights.rewards.find((night) => night.species === stamp.id)?.date} onSelectSpecies={onSelectSpecies} />)}
       </div>
       <footer className="stamp-collection__footer">
-        <p>{onSelectSpecies ? "Select a stamp to explore its data. " : "Open a stamp to meet the species. "}Save your favourites with the bookmark.</p>
-        <p>{collection.storageAvailable ? "Saved on this device. Finishes are visual previews." : "Browser storage is unavailable. Bookmarks last for this visit."}</p>
-        {collection.quizCompleted.size > 0 && <p>A check marks a species quiz you previously completed.</p>}
+        <p>Explore every bird freely. Turn off unnecessary lights after dark to reveal a bird and unlock its stamp.</p>
+        <p>{nights.storageAvailable ? "Your earned stamps stay on this device." : "Browser storage is unavailable. This visit’s stamps cannot be kept after you leave."}</p>
+        <Link href="/lights-out">Join Lights Out</Link>
       </footer>
-      <span className="stamp-collection__announcement" role="status">{collection.notice}</span>
     </section>
   );
 }
